@@ -3,11 +3,7 @@
 #converts all ipython notebooks to latex
 
 
-FILES="scripts/acs_analysis.tex
-scripts/autodesign.tex
-scripts/acssoftware.tex
-introduction.tex
-stateoftheart.tex"
+FILES="*.md"
 
 for f in $FILES
 do
