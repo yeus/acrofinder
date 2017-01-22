@@ -3,7 +3,8 @@
 #converts all ipython notebooks to latex
 
 
-FILES="*.md"
+#FILES="*.{md,tex}"
+FILES="*.{tex}"
 
 for f in $FILES
 do

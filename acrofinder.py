@@ -48,6 +48,8 @@ for acro, acrolong in acros:
     #if n>0: print("replacements for {}: {}".format(regex,n))
     if n > 0: counter[acro] += n
 
+print(newtex)
+
 with open("acronyms.tex","w") as acrotex:
     acrotex.write(buildlatexlist(acros))
 
