@@ -1,8 +1,8 @@
 acronym, definition
-ACS,Attitude Control Subsystem
-AOCS,Attitude and Orbit Control Subsystem
 A/D,Analogue to Digital Converter
+ACS,Attitude Control Subsystem
 ADS,Attitude Determination Subsystem
+AOCS,Attitude and Orbit Control Subsystem
 BCDR,Battery Charge and Discharge Regulator
 BCRS,Barycentric Celestical Reference System
 CA,Cellular Automaton
@@ -13,51 +13,51 @@ COM,Center of Mass
 COS,Center of Satellite
 CPU, Central Processing Unit
 CSA,Canadian Space Agency
-GCRS,Geocentric Celestial Reference System
 DC,Direct Current or Direct Voltage
+DCO,Device Coordinates and Orientation
 DDS,Distributed Data Service
 DHS, Data Handling Subsystem
 DIA,Device Identification Address
-DCO,Device Coordinates and Orientation
-ECI,Earth-Centered Inertial Coordinate System
 ECEF,Earth Centered Earth Fixed
+ECI,Earth-Centered Inertial Coordinate System
 EPS,Electrical Power Subsystem
 FDD,Feature Driven Development
 FMU, Functional Mockup Unit
 GCRF,Geocentric Celestial Reference Frame
+GCRS,Geocentric Celestial Reference System
 GEO,Geostationary Earth Orbit
 GPIO,General Purpose Input/Output
 iBoss,intelligent Building Blocks for On-Orbit Servicing
-LEO,Low Earth Orbit
 ICRF,International Celestial Reference Frame
 ICRS,International Celestial Reference System
 ICU,Interface Control Unit
 IERS,Internationl Earth Rotation and Reference Systems Service
 IMU,Inertial Measurement Unit
-ITRS,International Terrestrial Reference System
 ISSI,Intelligent Space System Interface
+ITRS,International Terrestrial Reference System
+LEO,Low Earth Orbit
+MBF,Module Body Frame
 MCU,Motor Control Unit
+MIDC,Module id coordinates
 MoI,Moment of Inertia
 MOSFET,Metal-Oxide-Semiconductor Field-Effect Transistor
 NASA, National Aeronautics and Space Agency
 OBC,On-Board Computer
+OBC,On Board Computer
+OBDH,On Board Data Handling
 OCS,Orbit Control System
 PCU,Power Control Unit
 PDU,Power Distribution Unit
-TEME,True Equator Mean Equinox ECI
-TRIAD,TODO
-TTC,Telemetry Tracking and Command
 QoS,Quality of Service
 ROS,Robot Operating System
 ROSS,ROS for Space Applications
-RTSP,Rapid Tree Spanning Protocol
 RTPS,Real-Time Publish-Subscribe
+RTSP,Rapid Tree Spanning Protocol
 SBF,Spacecraft Body Frame
 SW, Software
 TCS,Thermal Control Subsystem
-MIDC,Module id coordinates
-MBF,Module Body Frame
-OBC,On Board Computer
-OBDH,On Board Data Handling
+TEME,True Equator Mean Equinox ECI
+TRIAD,TODO
+TTC,Telemetry Tracking and Command
 UART,Universal Asynchronous Receiver/Transmitter
 VTi,Virtual Testbed iBoss
