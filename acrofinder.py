@@ -15,7 +15,7 @@ import csv
 #acrolist = re.compile("{(?P<a>.*)}{(?P<b>.*)}")
 
 def buildlatexlist(acrolist):
-    latac=r"\begin{acronym}\n"
+    latac=r"\begin{acronym}"+"\n"
     for ac in acrolist:
         latac+=r"\acro{"+ac[0]+"}{"+ac[1]+"}"+"\n"
     latac+=r"\end{acronym}"
@@ -51,7 +51,7 @@ for acro, acrolong in acros:
 print(newtex)
 
 with open("acronyms.tex","w") as acrotex:
-    acrotex.write(buildlatexlist(acros))
+    acrotex.write(buildlatexlist(acros[1:]))
 
 with open("acro.log","a") as acrolog:
     acrolog.write("found: {}\n".format(dict(counter)))
