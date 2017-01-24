@@ -21,7 +21,7 @@ def buildlatexlist(acrolist):
     latac+=r"\end{acronym}"
     return latac
 
-with open("acronymlist.csv", "rb") as acrofile:
+with open("acronymlist.csv", "rt") as acrofile:
     acronyms = csv.reader(acrofile, skipinitialspace=True, delimiter=',')#, quotechar='"')
     acronyms=list(acronyms)
     
@@ -54,7 +54,7 @@ with open("acronyms.tex","w") as acrotex:
     acrotex.write(buildlatexlist(acros))
 
 with open("acro.log","a") as acrolog:
-    acrolog.write("found: {}\n".format(counter))
+    acrolog.write("found: {}\n".format(dict(counter)))
 #print("replacing acros in file: "+ newtex)
 #print("found: {}".format(counter))
 

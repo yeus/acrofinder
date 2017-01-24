@@ -4,9 +4,9 @@
 
 
 #FILES="*.{md,tex}"
-FILES="*.{tex}"
+FILES=*.{tex}
 
-for f in $FILES
+for f in *.tex
 do
     echo "opening $f"
     python acrofinder.py "$f" > tmp.tex
