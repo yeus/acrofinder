@@ -21,7 +21,7 @@ def buildlatexlist(acrolist):
     latac+=r"\end{acronym}"
     return latac
 
-def replaceintexfiles(filename):
+def load_acrolist():
     with open("acronymlist.csv", "rt") as acrofile:
         acronyms = csv.reader(acrofile, skipinitialspace=True, delimiter=',')#, quotechar='"')
         acronyms=list(acronyms)
@@ -30,12 +30,57 @@ def replaceintexfiles(filename):
     #acros = [acrolist.search(i).groups() for i in acrostr]
 
     acros = [ac[:2] for ac in acronyms]
+    return acros[1:]
+    
+
+def createacrolistfromdoc(filename):
+    #STATIC_DEPS=true pip install lxml falls: ImportError: libiconv.so.2: cannot open shared object file: No such file or directory
+    #https://python-docx.readthedocs.io/en/latest/index.html
+    #import docx
+    #document = docx.Document(filename)
+        
+    #pandoc required
+    
+    from subprocess import call
+    import os
+    from collections import Counter
+    from itertools import chain
+    
+    #call(["pandoc",filename,"-s","-o","tmp.md"])
+    #call(["pandoc","tmp.odt","-o","tmp.md"])
+    call(["docx2txt", filename, "tmp"])
+    
+    acros = load_acrolist()
+    acrodict = {i : j for i,j in acros}
+    acroset = (i for i,j in acros)
+    
+    counted=0
+    #with open(filename,encoding="utf-8") as myfile:
+    with open("tmp",encoding="utf-8") as myfile:
+        data = myfile.read()#.replace('\n','')
+        unique=set(data.split())
+        #counted = Counter(data.split())
+    
+    #print(list(map(str.split, data)))
+    occuring_acros = unique.intersection(acroset)
+    
+    acrotable = "\n".join([acr + "\t "+ acrodict[acr] for acr in occuring_acros])
+    
+    print(acrotable)
+    #print(acrodict)
+    
+    os.remove("tmp")
+    
+
+def replaceintexfiles(filename):
 
     #open file
     with open(filename) as textfile:
         textstr = textfile.read()
         
     ##TODO:  if line starts with "\section"  dont replace!!    
+
+    acros = load_acrolist()
 
     newtex = textstr
     counter=defaultdict(int)
@@ -51,7 +96,7 @@ def replaceintexfiles(filename):
     print(newtex)
 
     with open("acronyms.tex","w") as acrotex:
-        acrotex.write(buildlatexlist(acros[1:]))
+        acrotex.write(buildlatexlist(acros))
 
     with open("acro.log","a") as acrolog:
         acrolog.write("found: {}\n".format(dict(counter)))
@@ -71,9 +116,13 @@ def main(argv=None):
             
             filename = sys.argv[1]
             
+            #print("fileending: {}".format(filename[-3:]))
             if filename[-3:]=="tex":
-                print("replacing {}".format(filename[-3:]))
+                #print("replacing {}".format(filename[-3:]))
                 replaceintexfiles(filename)
+            elif filename[-4:]=="docx":
+                #print("creating acronymlist!")
+                createacrolistfromdoc(filename)
                 
         except getopt.error as  msg:
              raise Usage(msg)
