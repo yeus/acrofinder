@@ -12,18 +12,24 @@ COG,Center of Gravity
 COM,Center of Mass
 COS,Center of Satellite
 COTS,Commercial-of-the-Shelf
-CPU, Central Processing Unit
+CPU,Central Processing Unit
 CSA,Canadian Space Agency
 DC,Direct Current or Direct Voltage
 DCO,Device Coordinates and Orientation
 DDS,Distributed Data Service
-DHS, Data Handling Subsystem
+DHS,Data Handling Subsystem
 DIA,Device Identification Address
 ECEF,Earth Centered Earth Fixed
 ECI,Earth-Centered Inertial Coordinate System
+ESCC,European Cooperation for Space Standardization
 EPS,Electrical Power Subsystem
+EQM,Engineering Qualification Model
+FCU,Flow Control Unit
 FDD,Feature Driven Development
-FMU, Functional Mockup Unit
+FDU,Fill and Drain Unit
+FM,Flight Model
+FMU,Functional Mockup Unit
+FTI,Fluid Transfer Interface
 GCRF,Geocentric Celestial Reference Frame
 GCRS,Geocentric Celestial Reference System
 GEO,Geostationary Earth Orbit
@@ -42,13 +48,17 @@ MCU,Motor Control Unit
 MIDC,Module id coordinates
 MoI,Moment of Inertia
 MOSFET,Metal-Oxide-Semiconductor Field-Effect Transistor
-NASA, National Aeronautics and Space Agency
+NASA,National Aeronautics and Space Agency
+ND,Normative Document
 OBC,On-Board Computer
 OBC,On Board Computer
 OBDH,On Board Data Handling
 OCS,Orbit Control System
+PCB,Printed Circuit Board
 PCU,Power Control Unit
 PDU,Power Distribution Unit
+PSCU,Propulsion System Control Unit
+PTFE,Polytetrafluorethylen
 QoS,Quality of Service
 ROS,Robot Operating System
 ROSS,ROS for Space Applications
@@ -58,6 +68,7 @@ SBF,Spacecraft Body Frame
 SW, Software
 TCS,Thermal Control Subsystem
 TEME,True Equator Mean Equinox ECI
+THU,Thruster Unit
 TRIAD,TODO
 TTC,Telemetry Tracking and Command
 UART,Universal Asynchronous Receiver/Transmitter
