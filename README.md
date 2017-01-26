@@ -11,4 +11,34 @@ just edit this file:
 
 ![acronymlist.csv](acronymlist.csv)
 
-Script for Word:  TODO
+# how to use
+
+## latex
+
+just put "acrofind" and "acrofinder.py" and 
+into the directory with your latex files.
+
+then do:
+
+    ./acrofind
+
+to find all acronyms in all *.tex files and replace
+them with \ac{...}.  An acronyms.tex will also be generated
+as which you should include manually into your master-file
+like this:
+
+    \input(acronyms.tex)
+
+In the case that you changed your latex file and added more acronyms,
+you can just run 
+
+    ./acrofind
+    
+again, to replace the newly found acronmys. Old acronyms that are already
+in\ac{...}-form will be peserved.
+
+## word
+
+    python acrofinder.py mywordfile.docx > acronyms.txt
+
+will output a list of acronyms which you can copy paste
