@@ -21,7 +21,8 @@ DHS,Data Handling Subsystem
 DIA,Device Identification Address
 ECEF,Earth Centered Earth Fixed
 ECI,Earth-Centered Inertial Coordinate System
-ESCC,European Cooperation for Space Standardization
+ECSS,European Cooperation for Space Standardization 
+ESCC,European Space Components Coordination
 EPS,Electrical Power Subsystem
 EQM,Engineering Qualification Model
 FCU,Flow Control Unit
@@ -34,17 +35,20 @@ GCRF,Geocentric Celestial Reference Frame
 GCRS,Geocentric Celestial Reference System
 GEO,Geostationary Earth Orbit
 GPIO,General Purpose Input/Output
+iBLOCK, iBoss Building Block
 iBoss,intelligent Building Blocks for On-Orbit Servicing
 ICRF,International Celestial Reference Frame
 ICRS,International Celestial Reference System
 ICU,Interface Control Unit
 IERS,Internationl Earth Rotation and Reference Systems Service
 IMU,Inertial Measurement Unit
+iSSI,Intelligent Space System Interface
 ISSI,Intelligent Space System Interface
 ITRS,International Terrestrial Reference System
 LEO,Low Earth Orbit
 MBF,Module Body Frame
 MCU,Motor Control Unit
+MDR,Mission Requiements Document
 MIDC,Module id coordinates
 MoI,Moment of Inertia
 MOSFET,Metal-Oxide-Semiconductor Field-Effect Transistor
@@ -54,22 +58,30 @@ OBC,On-Board Computer
 OBC,On Board Computer
 OBDH,On Board Data Handling
 OCS,Orbit Control System
+OCI,Optical CAN Interface
+PA,Product Assurance; de: Produktsicherung
 PCB,Printed Circuit Board
 PCU,Power Control Unit
 PDU,Power Distribution Unit
 PSCU,Propulsion System Control Unit
 PTFE,Polytetrafluorethylen
+QA,Quality Assurance; de: Qualitätssicherung
 QoS,Quality of Service
+QSL,Qualification Status List; de: Liste des Qualifizierungs- status
 ROS,Robot Operating System
 ROSS,ROS for Space Applications
 RTPS,Real-Time Publish-Subscribe
 RTSP,Rapid Tree Spanning Protocol
 SBF,Spacecraft Body Frame
-SW, Software
+SLA,RWTH Aachen, Institut für Strukturmechanik und Leichtbau 
+SW,Software
+TBD,to be defined
+TBC,to be continued
 TCS,Thermal Control Subsystem
 TEME,True Equator Mean Equinox ECI
 THU,Thruster Unit
 TRIAD,TODO
+TUB,Technische Universität Berlin, Institut für Luft- und Raumfahrt
 TTC,Telemetry Tracking and Command
 UART,Universal Asynchronous Receiver/Transmitter
 VTi,Virtual Testbed iBoss
