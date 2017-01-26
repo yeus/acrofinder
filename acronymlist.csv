@@ -22,22 +22,25 @@ DIA,Device Identification Address
 ECEF,Earth Centered Earth Fixed
 ECI,Earth-Centered Inertial Coordinate System
 ECSS,European Cooperation for Space Standardization 
+EGSE,Electrical Ground Support Equipment
 ESCC,European Space Components Coordination
 EPS,Electrical Power Subsystem
 EQM,Engineering Qualification Model
 FCU,Flow Control Unit
 FDD,Feature Driven Development
 FDU,Fill and Drain Unit
+FGSE,Fluid Ground Support Equipment
 FM,Flight Model
 FMU,Functional Mockup Unit
 FTI,Fluid Transfer Interface
 GCRF,Geocentric Celestial Reference Frame
 GCRS,Geocentric Celestial Reference System
 GEO,Geostationary Earth Orbit
+GSE,Ground Support Equipment
 GPIO,General Purpose Input/Output
-GSE, Ground Support Equipment
 iBLOCK, iBoss Building Block
 iBoss,intelligent Building Blocks for On-Orbit Servicing
+iBOSS,intelligent Building Blocks for On-Orbit Servicing
 ICRF,International Celestial Reference Frame
 ICRS,International Celestial Reference System
 ICU,Interface Control Unit
@@ -50,6 +53,7 @@ LEO,Low Earth Orbit
 MBF,Module Body Frame
 MCU,Motor Control Unit
 MDR,Mission Requiements Document
+MGSE,Mechanical Ground Support Equipment
 MIDC,Module id coordinates
 MoI,Moment of Inertia
 MOSFET,Metal-Oxide-Semiconductor Field-Effect Transistor
