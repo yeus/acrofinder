@@ -39,6 +39,6 @@ in\ac{...}-form will be peserved.
 
 ## word
 
-    python acrofinder.py mywordfile.docx > acronyms.txt
+    python3 acrofinder.py mywordfile.docx > acronyms.txt
 
 will output a list of acronyms which you can copy paste
