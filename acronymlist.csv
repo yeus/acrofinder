@@ -35,6 +35,7 @@ GCRF,Geocentric Celestial Reference Frame
 GCRS,Geocentric Celestial Reference System
 GEO,Geostationary Earth Orbit
 GPIO,General Purpose Input/Output
+GSE, Ground Support Equipment
 iBLOCK, iBoss Building Block
 iBoss,intelligent Building Blocks for On-Orbit Servicing
 ICRF,International Celestial Reference Frame
