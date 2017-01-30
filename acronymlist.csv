@@ -57,6 +57,7 @@ MGSE,Mechanical Ground Support Equipment
 MIDC,Module id coordinates
 MoI,Moment of Inertia
 MOSFET,Metal-Oxide-Semiconductor Field-Effect Transistor
+n.a.,not applicable
 NASA,National Aeronautics and Space Agency
 ND,Normative Document
 OBC,On-Board Computer
@@ -81,7 +82,9 @@ SBF,Spacecraft Body Frame
 SLA,RWTH Aachen; Institut für Strukturmechanik und Leichtbau 
 SW,Software
 TBD,to be defined
+tbd,to be defined
 TBC,to be continued
+tbc,to be continued
 TCS,Thermal Control Subsystem
 TEME,True Equator Mean Equinox ECI
 THU,Thruster Unit
