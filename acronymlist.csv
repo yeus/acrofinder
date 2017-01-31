@@ -23,6 +23,7 @@ ECEF,Earth Centered Earth Fixed
 ECI,Earth-Centered Inertial Coordinate System
 ECSS,European Cooperation for Space Standardization 
 EGSE,Electrical Ground Support Equipment
+EKF,Extended Kalman Filter
 ESCC,European Space Components Coordination
 EPS,Electrical Power Subsystem
 EQM,Engineering Qualification Model
