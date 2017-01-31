@@ -1,4 +1,4 @@
-# iboss acronyms and abbrevations
+# iboss acronyms and abbreviations
 
 Acronyms scripts momentarily only work for text-files. 
 
