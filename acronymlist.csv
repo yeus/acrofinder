@@ -17,6 +17,7 @@ CSA,Canadian Space Agency
 DC,Direct Current or Direct Voltage
 DCO,Device Coordinates and Orientation
 DDS,Distributed Data Service
+DHCP,Dynamic Host Configuration Protocol
 DHS,Data Handling Subsystem
 DIA,Device Identification Address
 ECEF,Earth Centered Earth Fixed
@@ -61,6 +62,7 @@ MOSFET,Metal-Oxide-Semiconductor Field-Effect Transistor
 n.a.,not applicable
 NASA,National Aeronautics and Space Agency
 ND,Normative Document
+NTP,Network Time Protocol
 OBC,On-Board Computer
 OBC,On Board Computer
 OBDH,On Board Data Handling
