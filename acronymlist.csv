@@ -25,7 +25,9 @@ ECEF,Earth Centered Earth Fixed
 ECI,Earth-Centered Inertial Coordinate System
 ECSS,European Cooperation for Space Standardization 
 EGSE,Electrical Ground Support Equipment
+EIF.Electrical Interface
 EKF,Extended Kalman Filter
+EMC,Electromagnetic Compatibility
 ESCC,European Space Components Coordination
 EPS,Electrical Power Subsystem
 EQM,Engineering Qualification Model
@@ -98,3 +100,4 @@ TUB,Technische Universität Berlin; Institut für Luft- und Raumfahrt
 TTC,Telemetry Tracking and Command
 UART,Universal Asynchronous Receiver/Transmitter
 VTi,Virtual Testbed iBoss
+WBS,Work Breakdown Structure
