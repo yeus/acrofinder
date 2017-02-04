@@ -55,6 +55,7 @@ IMU,Inertial Measurement Unit
 iSSI,Intelligent Space System Interface
 ISSI,Intelligent Space System Interface
 ITRS,International Terrestrial Reference System
+ITRF,International Terrestrial Reference Frame
 LEO,Low Earth Orbit
 MBF,Module Body Frame
 MCU,Motor Control Unit
