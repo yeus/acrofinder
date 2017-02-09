@@ -11,6 +11,18 @@ just edit this file:
 
 ![acronymlist.csv](acronymlist.csv)
 
+# installation
+
+## prerequisits
+
+* docx2txt
+    - install under linux: 
+        
+        sudo apt install docx2txt
+    
+    - windows: 
+        pip install docx2txt
+
 # how to use
 
 ## latex
@@ -42,3 +54,7 @@ in\ac{...}-form will be peserved.
     python3 acrofinder.py mywordfile.docx > acronyms.txt
 
 will output a list of acronyms which you can copy paste
+
+## FAQ:
+
+* python throws the error:
