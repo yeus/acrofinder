@@ -26,12 +26,12 @@ ECEF,Earth Centered Earth Fixed
 ECI,Earth-Centered Inertial Coordinate System
 ECSS,European Cooperation for Space Standardization 
 EGSE,Electrical Ground Support Equipment
-EIF.Electrical Interface
+EIF,Electrical Interface
 EKF,Extended Kalman Filter
 EMC,Electromagnetic Compatibility
-ESCC,European Space Components Coordination
 EPS,Electrical Power Subsystem
 EQM,Engineering Qualification Model
+ESCC,European Space Components Coordination
 FCU,Flow Control Unit
 FDD,Feature Driven Development
 FDU,Fill and Drain Unit
@@ -43,8 +43,8 @@ FZI,Forschungszentrum Informatik Karlsruhe; Group Intelligent Systems and Produc
 GCRF,Geocentric Celestial Reference Frame
 GCRS,Geocentric Celestial Reference System
 GEO,Geostationary Earth Orbit
-GSE,Ground Support Equipment
 GPIO,General Purpose Input/Output
+GSE,Ground Support Equipment
 iBLOCK, iBoss Building Block
 iBoss,intelligent Building Blocks for On-Orbit Servicing
 iBOSS,intelligent Building Blocks for On-Orbit Servicing
@@ -55,8 +55,8 @@ IERS,Internationl Earth Rotation and Reference Systems Service
 IMU,Inertial Measurement Unit
 iSSI,Intelligent Space System Interface
 ISSI,Intelligent Space System Interface
-ITRS,International Terrestrial Reference System
 ITRF,International Terrestrial Reference Frame
+ITRS,International Terrestrial Reference System
 LEO,Low Earth Orbit
 MBF,Module Body Frame
 MCU,Motor Control Unit
@@ -72,8 +72,8 @@ NTP,Network Time Protocol
 OBC,On-Board Computer
 OBC,On Board Computer
 OBDH,On Board Data Handling
-OCS,Orbit Control System
 OCI,Optical CAN Interface
+OCS,Orbit Control System
 PA,Product Assurance; de: Produktsicherung
 PCB,Printed Circuit Board
 PCU,Power Control Unit
@@ -90,17 +90,17 @@ RTSP,Rapid Tree Spanning Protocol
 SBF,Spacecraft Body Frame
 SLA,RWTH Aachen; Institut für Strukturmechanik und Leichtbau 
 SW,Software
-TBD,to be defined
-tbd,to be defined
 TBC,to be continued
 tbc,to be continued
+TBD,to be defined
+tbd,to be defined
 TCS,Thermal Control Subsystem
 TEME,True Equator Mean Equinox ECI
 THU,Thruster Unit
 TMS, Task Managing System
 TRIAD,TODO
-TUB,Technische Universität Berlin; Institut für Luft- und Raumfahrt
 TTC,Telemetry Tracking and Command
+TUB,Technische Universität Berlin; Institut für Luft- und Raumfahrt
 UART,Universal Asynchronous Receiver/Transmitter
 VLBI,Very Long Baseline Interferometry
 VTi,Virtual Testbed iBoss
