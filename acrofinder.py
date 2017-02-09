@@ -28,7 +28,7 @@ def load_acrolist():
         acronyms=list(acronyms)
     
     for ac in acronyms:
-        if len(ac) < 2:
+        if len(ac) != 2: #csv should have *exactly* two rows
             print("too few values in row: {}".format(ac))
             print("have you checked the csv file for consistency?\n\n\n")
             raise
