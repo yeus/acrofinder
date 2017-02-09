@@ -30,6 +30,7 @@ def load_acrolist():
     for ac in acronyms:
         if len(ac) < 2:
             print("too few values in row: {}".format(ac))
+            print("have you checked the csv file for consistency?\n\n\n")
             raise
     
     #acrostr = acrostr.split("\n")[1:-2]
