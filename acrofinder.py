@@ -8,6 +8,7 @@ import re #regular expressions to search and replace acronyms
 import sys
 from collections import defaultdict
 import csv
+import traceback  #for error reporting
 #import getopt
 
 #repl = "\\acro{}"
@@ -25,7 +26,12 @@ def load_acrolist():
     with open("acronymlist.csv", "rt") as acrofile:
         acronyms = csv.reader(acrofile, skipinitialspace=True, delimiter=',')#, quotechar='"')
         acronyms=list(acronyms)
-        
+    
+    for ac in acronyms:
+        if len(ac) < 2:
+            print("too few values in row: {}".format(ac))
+            raise
+    
     #acrostr = acrostr.split("\n")[1:-2]
     #acros = [acrolist.search(i).groups() for i in acrostr]
 
@@ -50,8 +56,12 @@ def createacrolistfromdoc(filename):
     #call(["pandoc","tmp.odt","-o","tmp.md"])
     call(["docx2txt", filename, "tmp"])
     
-    acros = load_acrolist()
-    acrodict = {i : j for i,j in acros}
+    try:
+        acros = load_acrolist()
+        acrodict = {i : j for i,j in acros}
+    except Exception as e: 
+        print("error, processing acronymlist.csv: {}".format(traceback.format_exc()))
+        
     acroset = (i for i,j in acros)
     
     counted=0
