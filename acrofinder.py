@@ -52,27 +52,32 @@ def createacrolistfromdoc(filename):
     import os
     from collections import Counter
     from itertools import chain
-    import docx2txt
-    
-    #call(["pandoc",filename,"-s","-o","tmp.md"])
-    #call(["pandoc","tmp.odt","-o","tmp.md"])
-    #call(["docx2txt", filename, "tmp"])
-    data = docx2txt.process(filename)
-    unique=set(data.split())
+
     try:
         acros = load_acrolist()
         acrodict = {i : j for i,j in acros}
     except Exception as e: 
         print("error, processing acronymlist.csv: {}".format(traceback.format_exc()))
         
-    acroset = (i for i,j in acros)
+    acroset = (i for i,j in acros)    
     
-    counted=0
-    #with open(filename,encoding="utf-8") as myfile:
-    #with open("tmp",encoding="utf-8") as myfile:
-    #    data = myfile.read()#.replace('\n','')
-    #    unique=set(data.split())
-        #counted = Counter(data.split())
+    #call(["pandoc",filename,"-s","-o","tmp.md"])
+    #call(["pandoc","tmp.odt","-o","tmp.md"])
+    if os.name == 'posix': 
+        try:
+            call(["docx2txt", filename, "tmp"])
+        except Exception as e:
+            print("have you installed docx2txt? try: \n\n    >> sudo apt install -y docx2txt")
+            raise
+      
+        with open("tmp",encoding="utf-8") as myfile:
+            data = myfile.read()#.replace('\n','')
+            unique=set(data.split())
+            
+    elif os.name == 'nt':  #@info needs:  "pip install docx2txt"
+        import docx2txt
+        data = docx2txt.process(filename)
+        unique=set(data.split())
     
     #print(list(map(str.split, data)))
     occuring_acros = unique.intersection(acroset)
@@ -80,9 +85,8 @@ def createacrolistfromdoc(filename):
     acrotable = "\n".join([acr + "\t "+ acrodict[acr] for acr in occuring_acros])
     
     print(acrotable)
-    #print(acrodict)
     
-    #os.remove("tmp")
+    if os.name == 'posix': os.remove("tmp")
     
 
 def replaceintexfiles(filename):
