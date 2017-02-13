@@ -21,7 +21,9 @@ just edit this file:
         sudo apt install docx2txt
     
     - windows (anaconda): 
+        
         conda config --add channels conda-forge
+        
         conda install docx2txt
 
 # how to use
