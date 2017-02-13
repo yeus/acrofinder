@@ -52,11 +52,13 @@ def createacrolistfromdoc(filename):
     import os
     from collections import Counter
     from itertools import chain
+    import docx2txt
     
     #call(["pandoc",filename,"-s","-o","tmp.md"])
     #call(["pandoc","tmp.odt","-o","tmp.md"])
-    call(["docx2txt", filename, "tmp"])
-    
+    #call(["docx2txt", filename, "tmp"])
+    data = docx2txt.process(filename)
+    unique=set(data.split())
     try:
         acros = load_acrolist()
         acrodict = {i : j for i,j in acros}
@@ -67,9 +69,9 @@ def createacrolistfromdoc(filename):
     
     counted=0
     #with open(filename,encoding="utf-8") as myfile:
-    with open("tmp",encoding="utf-8") as myfile:
-        data = myfile.read()#.replace('\n','')
-        unique=set(data.split())
+    #with open("tmp",encoding="utf-8") as myfile:
+    #    data = myfile.read()#.replace('\n','')
+    #    unique=set(data.split())
         #counted = Counter(data.split())
     
     #print(list(map(str.split, data)))
@@ -80,7 +82,7 @@ def createacrolistfromdoc(filename):
     print(acrotable)
     #print(acrodict)
     
-    os.remove("tmp")
+    #os.remove("tmp")
     
 
 def replaceintexfiles(filename):
