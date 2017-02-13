@@ -52,6 +52,10 @@ you can just run
 again, to replace the newly found acronmys. Old acronyms that are already
 in\ac{...}-form will be peserved.
 
+## markdown
+
+    python3 acrofinder.py markdownfile
+
 ## word
 
     python3 acrofinder.py mywordfile.docx > acronyms.txt
@@ -61,3 +65,8 @@ will output a list of acronyms which you can copy paste
 ## FAQ:
 
 * python throws the error:
+
+
+# TODO
+
+* substitude acronyms 
