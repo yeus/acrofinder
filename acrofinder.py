@@ -40,7 +40,7 @@ def load_acrolist():
     return acros[1:]
     
 
-def createacrolistfromdoc(filename):
+def createacrolistfromdoc(filename, filetype):
     #STATIC_DEPS=true pip install lxml falls: ImportError: libiconv.so.2: cannot open shared object file: No such file or directory
     #https://python-docx.readthedocs.io/en/latest/index.html
     #import docx
@@ -63,21 +63,26 @@ def createacrolistfromdoc(filename):
     
     #call(["pandoc",filename,"-s","-o","tmp.md"])
     #call(["pandoc","tmp.odt","-o","tmp.md"])
-    if os.name == 'posix': 
-        try:
-            call(["docx2txt", filename, "tmp"])
-        except Exception as e:
-            print("have you installed docx2txt? try: \n\n    >> sudo apt install -y docx2txt")
-            raise
-      
-        with open("tmp",encoding="utf-8") as myfile:
-            data = myfile.read()#.replace('\n','')
+    if filetype=='md':
+        with open(filename) as mdfile:
+            data = mdfile.read()
             unique=set(data.split())
-            
-    elif os.name == 'nt':  #@info needs:  "pip install docx2txt"
-        import docx2txt
-        data = docx2txt.process(filename)
-        unique=set(data.split())
+    else:
+        if os.name == 'posix': 
+            try:
+                call(["docx2txt", filename, "tmp"])
+            except Exception as e:
+                print("have you installed docx2txt? try: \n\n    >> sudo apt install -y docx2txt")
+                raise
+        
+            with open("tmp",encoding="utf-8") as myfile:
+                data = myfile.read()#.replace('\n','')
+                unique=set(data.split())
+                
+        elif os.name == 'nt':  #@info needs:  "pip install docx2txt"
+            import docx2txt
+            data = docx2txt.process(filename)
+            unique=set(data.split())
     
     #print(list(map(str.split, data)))
     occuring_acros = unique.intersection(acroset)
@@ -86,7 +91,8 @@ def createacrolistfromdoc(filename):
     
     print(acrotable)
     
-    if os.name == 'posix': os.remove("tmp")
+    if filetype=='docx' and os.name == 'posix': 
+        os.remove("tmp")
     
 
 def replaceintexfiles(filename):
@@ -123,26 +129,25 @@ class Usage(Exception):
         self.msg = msg
 
 def main(argv=None):
-    import getopt
-
     if argv is None:
         argv = sys.argv
     try:
         try:
-            opts, args = getopt.getopt(argv[1:], "h", ["help"])
-            
             filename = sys.argv[1]
             
             #print("fileending: {}".format(filename[-3:]))
             if filename[-3:]=="tex":
                 #print("replacing {}".format(filename[-3:]))
                 replaceintexfiles(filename)
+            elif filename[-2:]=="md":
+                createacrolistfromdoc(filename,filename[-2:])
             elif filename[-4:]=="docx":
                 #print("creating acronymlist!")
-                createacrolistfromdoc(filename)
+                createacrolistfromdoc(filename,filename[-4:])
                 
-        except getopt.error as  msg:
-             raise Usage(msg)
+        except Exception as e:
+            print(e)
+            print(traceback.format_exc())
         # more code, unchanged
     except Usage as err:
         print >>sys.stderr, err.msg
