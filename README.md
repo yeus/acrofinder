@@ -22,7 +22,7 @@ just edit this file:
     
     - windows (anaconda): 
         conda config --add channels conda-forge
-		conda install docx2txt
+        conda install docx2txt
 
 # how to use
 
