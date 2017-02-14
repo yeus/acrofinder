@@ -124,10 +124,6 @@ def replaceintexfiles(filename):
     with open("acro.log","a") as acrolog:
         acrolog.write("found: {}\n".format(dict(counter)))
 
-class Usage(Exception):
-    def __init__(self, msg):
-        self.msg = msg
-
 def main(argv=None):
     if argv is None:
         argv = sys.argv
