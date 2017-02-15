@@ -58,6 +58,9 @@ iSSI,Intelligent Space System Interface
 ISSI,Intelligent Space System Interface
 ITRF,International Terrestrial Reference Frame
 ITRS,International Terrestrial Reference System
+JD, Julian Date
+JDN, Julian Day Number
+MJD, Modified Julian Date
 LEO,Low Earth Orbit
 MBF,Module Body Frame
 MCU,Motor Control Unit
