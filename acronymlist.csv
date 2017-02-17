@@ -54,6 +54,7 @@ ICRS,International Celestial Reference System
 ICU,Interface Control Unit
 IDL, Interface Definition Language
 IERS,Internationl Earth Rotation and Reference Systems Service
+IGRF, International Geomagnetic Reference Field Model
 IMU,Inertial Measurement Unit
 iSSI,Intelligent Space System Interface
 ISSI,Intelligent Space System Interface
@@ -111,3 +112,4 @@ UART,Universal Asynchronous Receiver/Transmitter
 VLBI,Very Long Baseline Interferometry
 VTi,Virtual Testbed iBoss
 WBS,Work Breakdown Structure
+WMM, World Magnetic Field Model
