@@ -1,211 +1,211 @@
-acronym, definition,deutsch
+acronym,definition,deutsch
 A/D,Analogue to Digital Converter,
 ACS,Attitude control system,Lageregelungssystem
 ADS,Attitude Determination Subsystem,
-AFuV, Verordnung zum Gesetz über den Amateurfunk (Amateurfunkverordnung),
-AG, Aktiengesellschaft,
-AIESS, AI  Elektromechanisches Separationssystem                                               ,
+AFuV,Verordnung zum Gesetz über den Amateurfunk (Amateurfunkverordnung),
+AG,Aktiengesellschaft,
+AIESS,AI Elektromechanisches Separationssystem,
 AOCS,Attitude and Orbit Control Subsystem,
 API,Application Programming Interface,
-AR, Acceptance review,Überprüfung des Systemverifikationsergebnisses auf Akzeptanzniveau
-AU, Astronomical Unit,
-Batt, Batterie,
+AR,Acceptance review,Überprüfung des Systemverifikationsergebnisses auf Akzeptanzniveau
+AU,Astronomical Unit,
+Batt,Batterie,
 BCDR,Battery Charge and Discharge Regulator,
 BCRS,Barycentric Celestical Reference System,
-BEESAT, Berlin Experimental and Educational Satellite ,Berliner Experimental- und Ausbildungssatellit
-BIRD, Bispectral Infra-Red Detection, Kleinsatellitenmission des DLR  zur Beobachtung von Wald 
-BNetzA, Bundesnetzagentur,
+BEESAT,Berlin Experimental and Educational Satellite,Berliner Experimental- und Ausbildungssatellit
+BIRD,Bispectral Infra-Red Detection, Kleinsatellitenmission des DLR  zur Beobachtung von Wald 
+BNetzA,Bundesnetzagentur,
 CA,Cellular Automaton,
-CAD, Computer Aided Design,
-CAN, Controller Area Network,ein Feldbus
-CDR, Critical design review,Überprüfung des detaillierten Entwurfs
+CAD,Computer Aided Design,
+CAN,Controller Area Network,ein Feldbus
+CDR,Critical design review,Überprüfung des detaillierten Entwurfs
 CNT,Carbon Nanotubes,
 COE,Center of Earth,
 COG,Center of Gravity,
 COM,Center of Mass,
-COMM, Kommunikationssystem,
-Corp., Corporation,
+COMM,Kommunikationssystem,
+Corp.,Corporation,
 COS,Center of Satellite,
-COTS, commercial off-the-shelf," kommerziell,  handelsüblich"
+COTS,commercial off-the-shelf," kommerziell,  handelsüblich"
 CPU,Central Processing Unit,
-CRR, Commissioning result review,Überprüfung des Inbetriebnahmeergebnisses
+CRR,Commissioning result review,Überprüfung des Inbetriebnahmeergebnisses
 CSA,Canadian Space Agency,
-DAS, Debris-Assessment-Software,
+DAS,Debris-Assessment-Software,
 DC,Direct Current or Direct Voltage,
 DCO,Device Coordinates and Orientation,
 DDS,Distributed Data Service,
-DFG, Deutsche Forschungsgemeinschaft eV                                                         ,
-DGLR, Deutsche Gesellschaft für Luft- und Raumfahrt eV                                         ,
-DH, Data handling -- Datenverarbeitung,
+DFG,Deutsche Forschungsgemeinschaft eV,
+DGLR,Deutsche Gesellschaft für Luft- und Raumfahrt eV,
+DH,Data handling -- Datenverarbeitung,
 DHCP,Dynamic Host Configuration Protocol,
 DHS,Data Handling Subsystem,
 DIA,Device Identification Address,
-DIN, Deutsches Institut für Normung eV                                                          ,
-DLR, Deutsches Zentrum für Luft- und Raumfahrt eV                                               ,
-DLRK, Deutscher Luft- und Raumfahrtkongress,
-DM, Development model,Entwicklungsmodell
+DIN,Deutsches Institut für Normung eV,
+DLR,Deutsches Zentrum für Luft- und Raumfahrt eV,
+DLRK,Deutscher Luft- und Raumfahrtkongress,
+DM,Development model,Entwicklungsmodell
 ECEF,Earth Centered Earth Fixed,
 ECI,Earth-Centered Inertial Coordinate System,
-ECoC, European Code of Conduct,
-ECSS, European Cooperation for Space Standardization ,
-EDA, Electronic Design Automation,Rechnerunterstützter Entwurf von elektronischen Systemen
-EGSE, Electrical ground support equipment, elektrische Bodenhilfseinrichtungen
+ECoC,European Code of Conduct,
+ECSS,European Cooperation for Space Standardization,
+EDA,Electronic Design Automation,Rechnerunterstützter Entwurf von elektronischen Systemen
+EGSE,Electrical ground support equipment, elektrische Bodenhilfseinrichtungen
 EIF,Electrical Interface,
 EKF,Extended Kalman Filter,
-EM, Engineering model,Ingenieurmodell
+EM,Engineering model,Ingenieurmodell
 EMC,Electromagnetic Compatibility,
 EMM,Enhanced Magnetic Model,
-EOL, End of Life,"Missionsende,  Außerbetriebnahme"
+EOL,End of Life,"Missionsende,  Außerbetriebnahme"
 EPS,Electrical Power Subsystem,
-EQM, Engineering qualification model,Ingenieur-Qualifikationsmodell
-ESA, European Space Agency, Europäische Raumfahrtagentur
+EQM,Engineering qualification model,Ingenieur-Qualifikationsmodell
+ESA,European Space Agency, Europäische Raumfahrtagentur
 ESCC,European Space Components Coordination,
-ESD, Electrostatic discharge,elektrostatische Entladung
-eV, eingetragener Verein,
+ESD,Electrostatic discharge,elektrostatische Entladung
+eV,eingetragener Verein,
 FCU,Flow Control Unit,
-FDA, Fluid-dynamischer Aktor,
+FDA,Fluid-dynamischer Aktor,
 FDD,Feature Driven Development,
 FDU,Fill and Drain Unit,
-FEM, Finite-Elemente-Methode,
-FG, Fachgebiet,
+FEM,Finite-Elemente-Methode,
+FG,Fachgebiet,
 FGSE,Fluid Ground Support Equipment,
-FKZ, Förderkennzeichen,
+FKZ,Förderkennzeichen,
 FM,Flight Model,
-FM, Flight model,Flugmuster
-FMDR, Flüssigmetall-Drallring,
+FM,Flight model,Flugmuster
+FMDR,Flüssigmetall-Drallring,
 FMU,Functional Mockup Unit,
-FOR, Faseroptische Drehratensensorsystem,
-FRR, Flight readiness review,Überprüfung der Flugbereitschaft
-FS, Flight spare,Flugersatzmuster
+FOR,Faseroptische Drehratensensorsystem,
+FRR,Flight readiness review,Überprüfung der Flugbereitschaft
+FS,Flight spare,Flugersatzmuster
 FTI,Fluid Transfer Interface,
-FZI,Forschungszentrum Informatik Karlsruhe; Group Intelligent Systems and Production Engineering ,
+FZI,Forschungszentrum Informatik Karlsruhe; Group Intelligent Systems and Production Engineering,
 GCRF,Geocentric Celestial Reference Frame,
 GCRS,Geocentric Celestial Reference System,
 GEO,Geostationary Earth Orbit,
-GmbH, Gesellschaft mit begrenzter Haftung,
+GmbH,Gesellschaft mit begrenzter Haftung,
 GPIO,General Purpose Input/Output,
 GSE,Ground Support Equipment,
-GYR, Gyrosystem,
-HISPICO, Hochintegrierter S-Band-Sender für Picosatelliten,
-HRDMS, Highly Reliable Data Management System, hochverfügbares Datenmanagementsystem
-HZB, Helmholtz-Zentrum Berlin für Materialien und Energie GmbH                                  ,
-IAC, International Astronautical Congress, internationaler Raumfahrtkongress
-IADC, Inter-Agency Space Debris Coordination Committee,
-IAF, International Astronautical Federation, internationale Raumfahrtförderation
-IARU, International Amateur Radio Union,internationale Vereinigung von Amateurfunkverbänden
-iBLOCK, iBoss Building Block,
+GYR,Gyrosystem,
+HISPICO,Hochintegrierter S-Band-Sender für Picosatelliten,
+HRDMS,Highly Reliable Data Management System, hochverfügbares Datenmanagementsystem
+HZB,Helmholtz-Zentrum Berlin für Materialien und Energie GmbH,
+IAC,International Astronautical Congress, internationaler Raumfahrtkongress
+IADC,Inter-Agency Space Debris Coordination Committee,
+IAF,International Astronautical Federation, internationale Raumfahrtförderation
+IARU,International Amateur Radio Union,internationale Vereinigung von Amateurfunkverbänden
+iBLOCK,iBoss Building Block,
 iBoss,intelligent Building Blocks for On-Orbit Servicing,intelligentes Bausteinkonzept für das On-Orbit-Satelliten-Servicing
 iBOSS,intelligent Building Blocks for On-Orbit Servicing,intelligentes Bausteinkonzept für das On-Orbit-Satelliten-Servicing
 ICRF,International Celestial Reference Frame,
 ICRS,International Celestial Reference System,
 ICU,Interface Control Unit,
-IDL, Interface Definition Language,
+IDL,Interface Definition Language,
 IERS,Internationl Earth Rotation and Reference Systems Service,
-IGRF, International Geomagnetic Reference Field Model,
-ILR, Institut für Luft- und Raumfahrt,
+IGRF,International Geomagnetic Reference Field Model,
+ILR,Institut für Luft- und Raumfahrt,
 IMU,Inertial Measurement Unit,
-Inc., Incorporated,
-ISRO, Indian Space Research Organisation,
+Inc.,Incorporated,
+ISRO,Indian Space Research Organisation,
 iSSI,Intelligent Space System Interface,
 ISSI,Intelligent Space System Interface,
-ITAR, International Traffic in Arms Regulations, Regelung des internationalen Waffenhandels
+ITAR,International Traffic in Arms Regulations, Regelung des internationalen Waffenhandels
 ITRF,International Terrestrial Reference Frame,
 ITRS,International Terrestrial Reference System,
-ITU-R, International Telecommunication Union (Radiocommunication), Internationale Fernmeldeunion
-JD, Julian Date,
-JDN, Julian Day Number,
-KG, Kommanditgesellschaft,
-LBA, Luftfahrt-Bundesamt,
+ITU-R,International Telecommunication Union (Radiocommunication), Internationale Fernmeldeunion
+JD,Julian Date,
+JDN,Julian Day Number,
+KG,Kommanditgesellschaft,
+LBA,Luftfahrt-Bundesamt,
 LEO,Low Earth Orbit, niederer Erdorbit
-LEOP, Launch and early orbit phase,Start- und frühe Orbitphase
-LRR, Launch readiness review,Überprüfung der Startbereitschaft
-Ltd, Limited,
-MAIT," Manufacturing, Assembly, Integration, Test","Fertigung, Montage, Einbau,Test"
+LEOP,Launch and early orbit phase,Start- und frühe Orbitphase
+LRR,Launch readiness review,Überprüfung der Startbereitschaft
+Ltd,Limited,
+MAIT,"Manufacturing, Assembly, Integration, Test","Fertigung, Montage, Einbau,Test"
 MBF,Module Body Frame,
 MCU,Motor Control Unit,
 MDR,Mission Requiements Document,
-MFS, Magnetfeldsensor,
+MFS,Magnetfeldsensor,
 MGSE,Mechanical Ground Support Equipment,
 MIDC,Module id coordinates,
-MJD, Modified Julian Date,
+MJD,Modified Julian Date,
 MoI,Moment of Inertia,
 MOSFET,Metal-Oxide-Semiconductor Field-Effect Transistor,
-MTS, Magnetorquersystem,
-MwSt., Mehrwertsteuer,
+MTS,Magnetorquersystem,
+MwSt.,Mehrwertsteuer,
 n.a.,not applicable,
 NASA,National Aeronautics and Space Agency,
-NASA, National Aeronautics and Space Administration,
+NASA,National Aeronautics and Space Administration,
 ND,Normative Document,
-NN, Nomen nominandum,Name unbekannt
+NN,Nomen nominandum,Name unbekannt
 NTP,Network Time Protocol,
 OBC,On Board Computer,Bordcomputer
 OBDH,On Board Data Handling,
 OCI,Optical CAN Interface,
 OCS,Orbit Control System,
-ORR, Operational readiness review,Überprüfung der Betriebsbereitschaft
+ORR,Operational readiness review,Überprüfung der Betriebsbereitschaft
 PA,Product Assurance,Produktsicherung
-ParG, Partnerschaftsgesellschaft,
-PC, Personalcomputer,
+ParG,Partnerschaftsgesellschaft,
+PC,Personalcomputer,
 PCB,Printed Circuit Board,
-PCDU, Power Control and Distribution Unit,Energieversorgungssteuerung- und -verteilungseinheit
+PCDU,Power Control and Distribution Unit,Energieversorgungssteuerung- und -verteilungseinheit
 PCU,Power Control Unit,Energieversorgungssteuereinheit
-PDH, Payload Data Handling,Nutzlastdatenverarbeitung
-PDR, Preliminary design review,Überprüfung des vorläufigen Entwurfs
+PDH,Payload Data Handling,Nutzlastdatenverarbeitung
+PDR,Preliminary design review,Überprüfung des vorläufigen Entwurfs
 PDU,Power Distribution Unit,
-PFM, Protoflight model,Protoflugmuster
-PMP, Projektmanagementplan,
+PFM,Protoflight model,Protoflugmuster
+PMP,Projektmanagementplan,
 PSCU,Propulsion System Control Unit,
-PSLV, Polar Satellite Launch Vehicle,Indisches Trägersystem
+PSLV,Polar Satellite Launch Vehicle,Indisches Trägersystem
 PTFE,Polytetrafluorethylen,
 QA,Quality Assurance; de: Qualitätssicherung,
-QM, Qualifikation model,Qualifikationsmodell
+QM,Qualifikation model,Qualifikationsmodell
 QoS,Quality of Service,
-QR, Qualification review,Überprüfung des Systemverifikationsergebnisses auf Qualifikationsniveau
+QR,Qualification review,Überprüfung des Systemverifikationsergebnisses auf Qualifikationsniveau
 QSL,Qualification Status List; de: Liste des Qualifizierungs- status,
 ROS,Robot Operating System,
 ROSS,ROS for Space Applications,
 RTPS,Real-Time Publish-Subscribe,
 RTSP,Rapid Tree Spanning Protocol,
 SBF,Spacecraft Body Frame,
-SDM, Space debris mitigation,Weltraummüllvermeidung
+SDM,Space debris mitigation,Weltraummüllvermeidung
 SDT,Software Development Team,
-SEMENA, Titel des DLR -Fördervorhabens für den Nanosatelliten-Separationsmechanismus AIES ,
-SFL, Space Flight Laboratory,
-SLA,RWTH Aachen; Institut für Strukturmechanik und Leichtbau ,
-SM, Structural model,Strukturmodell
-SRR, System requirements review, Überprüfung der Systemanforderungen
-SSS, Sonnensensorsystem,
-STM, Structural thermal model,Struktur-Thermal-Modell
-STR, Star tracker,Sternsensor
+SEMENA,Titel des DLR -Fördervorhabens für den Nanosatelliten-Separationsmechanismus AIES,
+SFL,Space Flight Laboratory,
+SLA,RWTH Aachen; Institut für Strukturmechanik und Leichtbau,
+SM,Structural model,Strukturmodell
+SRR,System requirements review, Überprüfung der Systemanforderungen
+SSS,Sonnensensorsystem,
+STM,Structural thermal model,Struktur-Thermal-Modell
+STR,Star tracker,Sternsensor
 SW,Software,
 TBC,to be continued,
 tbc,to be continued,
 TBD,to be defined,
 tbd,to be defined,
-TC, Telecommand,Telekommando
+TC,Telecommand,Telekommando
 TCS,Thermal Control Subsystem,
-TCS, Thermalkontrollsystem,
+TCS,Thermalkontrollsystem,
 TEME,True Equator Mean Equinox ECI,
-TET, Technologieerprobungsträger,Kleinsatellitenbaureihe des DLR  zur Verifikation neuer Raumfahrtkomponenten
+TET,Technologieerprobungsträger,Kleinsatellitenbaureihe des DLR  zur Verifikation neuer Raumfahrtkomponenten
 THU,Thruster Unit,
-TIR, Thermales Infrarot,
-TM, Telemetrie,
-TMS, Task Managing System,
-TNC, Terminal Node Controller,Teil eines digitalen Kommunikationssystems zur Kodierung und Modulation
+TIR,Thermales Infrarot,
+TM,Telemetrie,
+TMS,Task Managing System,
+TNC,Terminal Node Controller,Teil eines digitalen Kommunikationssystems zur Kodierung und Modulation
 TRIAD,TODO,
-TRX, Transceiver,Sender und Empfänger
+TRX,Transceiver,Sender und Empfänger
 TTC,Telemetry Tracking and Command,
-TU, Technische Universität,
+TU,Technische Universität,
 TUB,Technische Universität Berlin; Institut für Luft- und Raumfahrt,
-TUBIN, TU  Berlin Infrarot-Nanosatellit                                                        ,
-TUBSAT, TU  Berlin Infrarot-Nanosatellit                                                                   ,
-TV-L, Tarifvertrag für den öffentlichen Dienst der Länder,
+TUBIN,TU Berlin Infrarot-Nanosatellit,
+TUBSAT,TU Berlin Infrarot-Nanosatellit,
+TV-L,Tarifvertrag für den öffentlichen Dienst der Länder,
 UART,Universal Asynchronous Receiver/Transmitter,
-UHF, Ultra High Frequency,Ultrahochfrequenz
-Uni, Universität,
-UTIAS, University of Toronto Institute for Aerospace Studies,
+UHF,Ultra High Frequency,Ultrahochfrequenz
+Uni,Universität,
+UTIAS,University of Toronto Institute for Aerospace Studies,
 VLBI,Very Long Baseline Interferometry,
 VTi,Virtual Testbed iBoss,
 WBS,Work Breakdown Structure,
-WMM, World Magnetic Field Model,
-XPOD," Experimental Push-out Deployer,  eXoadaptable PyrOless Deployer",
+WMM,World Magnetic Field Model,
+XPOD,"Experimental Push-out Deployer, eXoadaptable PyrOless Deployer",
