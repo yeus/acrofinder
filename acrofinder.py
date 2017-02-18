@@ -23,7 +23,6 @@ def buildlatexlist(acrolist):
     return latac
 
 def load_acros():
-    
     try:
     
         with open("acronymlist.csv", "rt") as acrofile:
@@ -42,7 +41,7 @@ def load_acros():
         acros = [ac[:2] for ac in acronyms][1:]
         
         acrodict = {i : j for i,j in acros}
-        acroset = (i for i,j in acros) 
+        acroset = set(i for i,j in acros) 
     except Exception as e: 
         print("error, processing acronymlist.csv: {}".format(traceback.format_exc()))
         
@@ -94,23 +93,39 @@ def createacrolistfromdoc(filename, filetype):
     acrodict, acroset = load_acros()
     
     data = get_txt_data(filename)
-    unique=set(data.split())
+    #words = [w.strip(".,:()[]") for w in data.split()]
+    words = re.findall(r"[\w']+", data)
+    unique=set(words)
     
     #print(list(map(str.split, data)))
     occuring_acros = unique.intersection(acroset)
     
-    acrotable = "\n".join([acr + "\t "+ acrodict[acr] for acr in occuring_acros])
+    acrotable = "\n".join([acr + "\t "+ acrodict[acr] for acr in sorted(occuring_acros)])
     
-    print(acrotable)    
+    print(acrotable)
 
 def searchunknownacros(filename, filetype):
+    acrodict, acroset = load_acros()
+    
     data = get_txt_data(filename)
-    unique=set(data.split())
+    #words = [w.strip(".,:()[]") for w in data.split()]
+    words = re.findall(r"[\w']+", data)
+    unique=set(words)
     
     #print(list(map(str.split, data)))
     occuring_acros = unique.intersection(acroset)
-    return unknowns
-
+    
+    unknowns=[]
+    for word in unique-acroset:
+        cnum = sum(1 for c in word if c.isupper())
+        if cnum > 1: 
+            unknowns.append(word)
+            #if 
+            #print(word,word in occuring_acros)
+        
+        
+    print("potential unknown acronyms: \n{}".format("\n".join(unknowns)))
+    
 def replaceintexfiles(filename):
 
     #open file
@@ -153,10 +168,13 @@ def main(argv=None):
                 replaceintexfiles(filename)
             elif filename[-2:]=="md":
                 createacrolistfromdoc(filename,filename[-2:])
+                print("\n\n")
+                searchunknownacros(filename,filename[-4:])
             elif filename[-4:]=="docx":
                 #print("creating acronymlist!")
                 createacrolistfromdoc(filename,filename[-4:])
-                #searchunknownacros(filename,filename[-4:])
+                print("\n\n")
+                searchunknownacros(filename,filename[-4:])
                 
         except Exception as e:
             print(e)

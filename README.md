@@ -9,7 +9,7 @@ of acronyms in the acronym list with its counterpart
 
 just edit this file:
 
-![acronymlist.csv](acronymlist.csv)
+[acronymlist.csv](acronymlist.csv)
 
 # installation
 
