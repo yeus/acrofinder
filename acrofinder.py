@@ -30,7 +30,7 @@ def load_acros():
             acronyms=list(acronyms)
         
         for ac in acronyms:
-            if len(ac) != 2: #csv should have *exactly* two rows
+            if len(ac) < 2: #csv should have more than two rows
                 print("too few values in row: {}".format(ac))
                 print("have you checked the csv file for consistency?\n\n\n")
                 raise
@@ -44,6 +44,7 @@ def load_acros():
         acroset = set(i for i,j in acros) 
     except Exception as e: 
         print("error, processing acronymlist.csv: {}".format(traceback.format_exc()))
+        #raise
         
     return acrodict, acroset
   
@@ -124,7 +125,7 @@ def searchunknownacros(filename, filetype):
             #print(word,word in occuring_acros)
         
         
-    print("potential unknown acronyms: \n{}".format("\n".join(unknowns)))
+    print("potential unknown acronyms: \n{}".format("\n".join(sorted(unknowns))))
     
 def replaceintexfiles(filename):
 
