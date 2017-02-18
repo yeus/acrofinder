@@ -22,22 +22,31 @@ def buildlatexlist(acrolist):
     latac+=r"\end{acronym}"
     return latac
 
-def load_acrolist():
-    with open("acronymlist.csv", "rt") as acrofile:
-        acronyms = csv.reader(acrofile, skipinitialspace=True, delimiter=',')#, quotechar='"')
-        acronyms=list(acronyms)
+def load_acros():
     
-    for ac in acronyms:
-        if len(ac) != 2: #csv should have *exactly* two rows
-            print("too few values in row: {}".format(ac))
-            print("have you checked the csv file for consistency?\n\n\n")
-            raise
+    try:
     
-    #acrostr = acrostr.split("\n")[1:-2]
-    #acros = [acrolist.search(i).groups() for i in acrostr]
+        with open("acronymlist.csv", "rt") as acrofile:
+            acronyms = csv.reader(acrofile, skipinitialspace=True, delimiter=',')#, quotechar='"')
+            acronyms=list(acronyms)
+        
+        for ac in acronyms:
+            if len(ac) != 2: #csv should have *exactly* two rows
+                print("too few values in row: {}".format(ac))
+                print("have you checked the csv file for consistency?\n\n\n")
+                raise
+        
+        #acrostr = acrostr.split("\n")[1:-2]
+        #acros = [acrolist.search(i).groups() for i in acrostr]
 
-    acros = [ac[:2] for ac in acronyms]
-    return acros[1:]
+        acros = [ac[:2] for ac in acronyms][1:]
+        
+        acrodict = {i : j for i,j in acros}
+        acroset = (i for i,j in acros) 
+    except Exception as e: 
+        print("error, processing acronymlist.csv: {}".format(traceback.format_exc()))
+        
+    return acrodict, acroset
   
 def get_txt_data(filename):
     from subprocess import call
@@ -82,13 +91,7 @@ def createacrolistfromdoc(filename, filetype):
         
     #pandoc required
     
-    try:
-        acros = load_acrolist()
-        acrodict = {i : j for i,j in acros}
-    except Exception as e: 
-        print("error, processing acronymlist.csv: {}".format(traceback.format_exc()))
-        
-    acroset = (i for i,j in acros) 
+    acrodict, acroset = load_acros()
     
     data = get_txt_data(filename)
     unique=set(data.split())
@@ -99,6 +102,14 @@ def createacrolistfromdoc(filename, filetype):
     acrotable = "\n".join([acr + "\t "+ acrodict[acr] for acr in occuring_acros])
     
     print(acrotable)    
+
+def searchunknownacros(filename, filetype):
+    data = get_txt_data(filename)
+    unique=set(data.split())
+    
+    #print(list(map(str.split, data)))
+    occuring_acros = unique.intersection(acroset)
+    return unknowns
 
 def replaceintexfiles(filename):
 
@@ -128,10 +139,6 @@ def replaceintexfiles(filename):
 
     with open("acro.log","a") as acrolog:
         acrolog.write("found: {}\n".format(dict(counter)))
-
-def searchunknownacros(filename, filetype):
-    unknowns=[]
-    return unknowns
 
 def main(argv=None):
     if argv is None:
