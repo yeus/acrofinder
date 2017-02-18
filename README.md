@@ -69,4 +69,5 @@ will output a list of acronyms which you can copy paste
 
 # TODO
 
-* substitude acronyms 
+* substitute acronyms 
+* search for possible unknown acronyms (for Example Words that have more than one Capital letter)
