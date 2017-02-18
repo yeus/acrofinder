@@ -38,35 +38,22 @@ def load_acrolist():
 
     acros = [ac[:2] for ac in acronyms]
     return acros[1:]
-    
-
-def createacrolistfromdoc(filename, filetype):
-    #STATIC_DEPS=true pip install lxml falls: ImportError: libiconv.so.2: cannot open shared object file: No such file or directory
-    #https://python-docx.readthedocs.io/en/latest/index.html
-    #import docx
-    #document = docx.Document(filename)
-        
-    #pandoc required
-    
+  
+def get_txt_data(filename):
     from subprocess import call
     import os
     from collections import Counter
     from itertools import chain
 
-    try:
-        acros = load_acrolist()
-        acrodict = {i : j for i,j in acros}
-    except Exception as e: 
-        print("error, processing acronymlist.csv: {}".format(traceback.format_exc()))
-        
-    acroset = (i for i,j in acros)    
-    
+    if filename[-3:]=="tex": filetype = "tex"
+    elif filename[-2:]=="md": filetype= "md"
+    elif filename[-4:]=="docx": filetype= "docx"
+
     #call(["pandoc",filename,"-s","-o","tmp.md"])
     #call(["pandoc","tmp.odt","-o","tmp.md"])
     if filetype=='md':
         with open(filename) as mdfile:
             data = mdfile.read()
-            unique=set(data.split())
     else:
         if os.name == 'posix': 
             try:
@@ -77,23 +64,41 @@ def createacrolistfromdoc(filename, filetype):
         
             with open("tmp",encoding="utf-8") as myfile:
                 data = myfile.read()#.replace('\n','')
-                unique=set(data.split())
                 
         elif os.name == 'nt':  #@info needs:  "pip install docx2txt"
             import docx2txt
             data = docx2txt.process(filename)
-            unique=set(data.split())
+            
+    if filetype=='docx' and os.name == 'posix': 
+        os.remove("tmp")
+    
+    return data
+
+def createacrolistfromdoc(filename, filetype):
+    #STATIC_DEPS=true pip install lxml falls: ImportError: libiconv.so.2: cannot open shared object file: No such file or directory
+    #https://python-docx.readthedocs.io/en/latest/index.html
+    #import docx
+    #document = docx.Document(filename)
+        
+    #pandoc required
+    
+    try:
+        acros = load_acrolist()
+        acrodict = {i : j for i,j in acros}
+    except Exception as e: 
+        print("error, processing acronymlist.csv: {}".format(traceback.format_exc()))
+        
+    acroset = (i for i,j in acros) 
+    
+    data = get_txt_data(filename)
+    unique=set(data.split())
     
     #print(list(map(str.split, data)))
     occuring_acros = unique.intersection(acroset)
     
     acrotable = "\n".join([acr + "\t "+ acrodict[acr] for acr in occuring_acros])
     
-    print(acrotable)
-    
-    if filetype=='docx' and os.name == 'posix': 
-        os.remove("tmp")
-    
+    print(acrotable)    
 
 def replaceintexfiles(filename):
 
@@ -124,6 +129,10 @@ def replaceintexfiles(filename):
     with open("acro.log","a") as acrolog:
         acrolog.write("found: {}\n".format(dict(counter)))
 
+def searchunknownacros(filename, filetype):
+    unknowns=[]
+    return unknowns
+
 def main(argv=None):
     if argv is None:
         argv = sys.argv
@@ -140,6 +149,7 @@ def main(argv=None):
             elif filename[-4:]=="docx":
                 #print("creating acronymlist!")
                 createacrolistfromdoc(filename,filename[-4:])
+                #searchunknownacros(filename,filename[-4:])
                 
         except Exception as e:
             print(e)
