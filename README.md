@@ -1,13 +1,16 @@
-# iboss acronyms and abbreviations
+# Acronyms and Abbreviations finder
 
-Acronyms scripts momentarily only work for text-files. 
+this project is about two things:
 
-A repository containing a list of acronyms used in iboss.
+* A repository containing a list of acronyms fpr space-related purposes.
+* A script that intends to make your life easier when searching for acronyms in documents.
+  The script can handle all text files (latex, markdown etc..), latex files, pdf-files 
+  and docx (word) files
 
 acrofinder:   takes a text file and replaces all occurences 
 of acronyms in the acronym list with its counterpart
 
-just edit this file:
+just edit this file to add nwe acronyms:
 
 [acronymlist.csv](acronymlist.csv)
 
@@ -54,11 +57,15 @@ in\ac{...}-form will be peserved.
 
 ## markdown
 
-    python3 acrofinder.py markdownfile
+    python3 acrofinder.py <markdownfile.md>
+
+## pdf
+
+    python3 acrofinder.py <pdffile>
 
 ## word
 
-    python3 acrofinder.py mywordfile.docx > acronyms.txt
+    python3 acrofinder.py <mywordfile.docx> > acronyms.txt
 
 will output a list of acronyms which you can copy paste
 
