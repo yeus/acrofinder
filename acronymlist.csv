@@ -62,6 +62,7 @@ EQM,Engineering qualification model,Ingenieur-Qualifikationsmodell
 ESA,European Space Agency, Europäische Raumfahrtagentur
 ESCC,European Space Components Coordination,
 ESD,Electrostatic discharge,elektrostatische Entladung
+ESS,electronic interfaces,Elektrische Schnittstelle
 eV,eingetragener Verein,
 FCU,Flow Control Unit,
 FDA,Fluid-dynamischer Aktor,
@@ -87,6 +88,7 @@ GmbH,Gesellschaft mit begrenzter Haftung,
 GPIO,General Purpose Input/Output,
 GSE,Ground Support Equipment,
 GYR,Gyrosystem,
+HIL,Hardware in the loop,
 HISPICO,Hochintegrierter S-Band-Sender für Picosatelliten,
 HRDMS,Highly Reliable Data Management System, hochverfügbares Datenmanagementsystem
 HZB,Helmholtz-Zentrum Berlin für Materialien und Energie GmbH,
@@ -106,7 +108,9 @@ IGRF,International Geomagnetic Reference Field Model,
 ILR,Institut für Luft- und Raumfahrt,
 IMU,Inertial Measurement Unit,
 Inc.,Incorporated,
-IOD, In Orbit Demonstration
+IOD, In Orbit Demonstration,
+IP,Internet Protokoll,
+iSAT,iBOSS Satellite,
 ISRO,Indian Space Research Organisation,
 iSSI,Intelligent Space System Interface,
 ISSI,Intelligent Space System Interface,
@@ -132,6 +136,7 @@ MIDC,Module id coordinates,
 MIF,Mechanical Interface,
 MJD,Modified Julian Date,
 MLI,Multilayer Insulation,
+MMI,Institute for Man-Machine Interaction,Institut für Mensch Maschine Interaktion
 MoI,Moment of Inertia,
 MOSFET,Metal-Oxide-Semiconductor Field-Effect Transistor,
 MTS,Magnetorquersystem,
@@ -146,6 +151,7 @@ OBC,On Board Computer,Bordcomputer
 OBDH,On Board Data Handling,
 OCI,Optical CAN Interface,
 OCS,Orbit Control System,
+OMG,Object Management Group,
 ORR,Operational readiness review,Überprüfung der Betriebsbereitschaft
 PA,Product Assurance,Produktsicherung
 ParG,Partnerschaftsgesellschaft,
@@ -161,6 +167,7 @@ PMP,Projektmanagementplan,
 PSCU,Propulsion System Control Unit,
 PSLV,Polar Satellite Launch Vehicle,Indisches Trägersystem
 PTFE,Polytetrafluorethylen,
+PUS,Packet Utilisation Standard,
 QA,Quality Assurance; de: Qualitätssicherung,
 QM,Qualifikation model,Qualifikationsmodell
 QoS,Quality of Service,
@@ -171,17 +178,19 @@ ROSS,ROS for Space Applications,
 RTPS,Real-Time Publish-Subscribe,
 RTSP,Rapid Tree Spanning Protocol,
 SBF,Spacecraft Body Frame,
+SCRUM,Agile Development Method,
 SDM,Space debris mitigation,Weltraummüllvermeidung
 SDT,Software Development Team,
 SEM,Scanning electron microscope,
 SEMENA,Titel des DLR -Fördervorhabens für den Nanosatelliten-Separationsmechanismus AIES,
 SFL,Space Flight Laboratory,
+SIL,Software in the loop,
 SLA,RWTH Aachen; Institut für Strukturmechanik und Leichtbau,
 SM,Structural model,Strukturmodell
 SRR,System requirements review, Überprüfung der Systemanforderungen
 SSS,Sonnensensorsystem,
 STM,Structural thermal model,Struktur-Thermal-Modell
-STP,Spanning Tree Protocol
+STP,Spanning Tree Protocol,
 STR,Star tracker,Sternsensor
 SW,Software,
 TBC,to be continued,
@@ -202,7 +211,9 @@ TMS,Task Managing System,
 TNC,Terminal Node Controller,Teil eines digitalen Kommunikationssystems zur Kodierung und Modulation
 TRIAD,TODO,
 TRX,Transceiver,Sender und Empfänger
+TSPE,Test Specification,
 TTC,Telemetry Tracking and Command,
+TTEthernet,Time Triggered Ethernet,
 TU,Technische Universität,
 TUB,Technische Universität Berlin; Institut für Luft- und Raumfahrt,
 TUBIN,TU Berlin Infrarot-Nanosatellit,
