@@ -1,22 +1,22 @@
 # Acronyms and Abbreviations finder
 
-this project is about two things:
+This project is about two things:
 
-* A repository containing a list of acronyms fpr space-related purposes.
-* A script that intends to make your life easier when searching for acronyms in documents.
+* A repository containing a list of acronyms for space-related purposes.
+* A script that makes your life easier when searching for acronyms in documents.
   The script can handle all text files (latex, markdown etc..), latex files, pdf-files 
   and docx (word) files
 
 acrofinder:   takes a text file and replaces all occurences 
 of acronyms in the acronym list with its counterpart
 
-just edit this file to add nwe acronyms:
+just edit this file to add new acronyms:
 
 [acronymlist.csv](acronymlist.csv)
 
-# installation
+# Installation
 
-## prerequisits
+## Prerequisits
 
 * docx2txt
     - install under linux: 
@@ -29,9 +29,9 @@ just edit this file to add nwe acronyms:
         
         conda install docx2txt
 
-# how to use
+# How to use
 
-## latex
+## Latex
 
 just put "acrofind" and "acrofinder.py" and 
 into the directory with your latex files.
@@ -55,15 +55,15 @@ you can just run
 again, to replace the newly found acronmys. Old acronyms that are already
 in\ac{...}-form will be peserved.
 
-## markdown
+## Markdown
 
     python3 acrofinder.py <markdownfile.md>
 
-## pdf
+## Pdf
 
     python3 acrofinder.py <pdffile>
 
-## word
+## Word
 
     python3 acrofinder.py <mywordfile.docx> > acronyms.txt
 
