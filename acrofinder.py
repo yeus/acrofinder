@@ -112,7 +112,8 @@ def createacrolistfromdoc(filename, filetype):
     #print(list(map(str.split, data)))
     occuring_acros = unique.intersection(acroset)
     
-    acrotable = "\n".join([acr + "\t "+ acrodict[acr] for acr in sorted(occuring_acros)])
+    if filetype=="pdf": acrotable = "\n".join(["|" + acr + "\t |"+ acrodict[acr] + "|" for acr in sorted(occuring_acros)])
+    else: acrotable = "\n".join([acr + "\t "+ acrodict[acr] for acr in sorted(occuring_acros)])
     
     print(acrotable)
 
