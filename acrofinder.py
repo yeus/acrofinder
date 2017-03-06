@@ -15,6 +15,8 @@ import traceback  #for error reporting
 
 #acrolist = re.compile("{(?P<a>.*)}{(?P<b>.*)}")
 
+#TODO:  CLI mit python fire
+
 def buildlatexlist(acrolist):
     latac=r"\begin{acronym}"+"\n"
     for ac in acrolist:
@@ -49,7 +51,7 @@ def load_acros():
     return acrodict, acroset
   
 def get_txt_data(filename):
-    from subprocess import call
+    from subprocess import call, check_output
     import os
     from collections import Counter
     from itertools import chain
@@ -57,6 +59,7 @@ def get_txt_data(filename):
     if filename[-3:]=="tex": filetype = "tex"
     elif filename[-2:]=="md": filetype= "md"
     elif filename[-4:]=="docx": filetype= "docx"
+    elif filename[-3:]=="pdf": filetype="pdf"
 
     #call(["pandoc",filename,"-s","-o","tmp.md"])
     #call(["pandoc","tmp.odt","-o","tmp.md"])
@@ -64,19 +67,27 @@ def get_txt_data(filename):
         with open(filename) as mdfile:
             data = mdfile.read()
     else:
-        if os.name == 'posix': 
+        if filetype=="docx":
+            if os.name == 'posix': 
+                try:
+                    call(["docx2txt", filename, "tmp"])
+                except Exception as e:
+                    print("have you installed docx2txt? try: \n\n    >> sudo apt install -y docx2txt")
+                    raise
+            
+                with open("tmp",encoding="utf-8") as myfile:
+                    data = myfile.read()#.replace('\n','')
+                    
+            elif os.name == 'nt':  #@info needs:  "pip install docx2txt"
+                import docx2txt
+                data = docx2txt.process(filename)
+        elif filetype == "pdf":
             try:
-                call(["docx2txt", filename, "tmp"])
+                data = check_output(["pdf2txt",filename])
+                #print(data)
             except Exception as e:
                 print("have you installed docx2txt? try: \n\n    >> sudo apt install -y docx2txt")
                 raise
-        
-            with open("tmp",encoding="utf-8") as myfile:
-                data = myfile.read()#.replace('\n','')
-                
-        elif os.name == 'nt':  #@info needs:  "pip install docx2txt"
-            import docx2txt
-            data = docx2txt.process(filename)
             
     if filetype=='docx' and os.name == 'posix': 
         os.remove("tmp")
@@ -167,10 +178,14 @@ def main(argv=None):
             if filename[-3:]=="tex":
                 #print("replacing {}".format(filename[-3:]))
                 replaceintexfiles(filename)
+            elif filename[-3:]=="pdf":
+                createacrolistfromdoc(filename,filename[-3:])
+                print("\n\n")
+                searchunknownacros(filename,filename[-3:])
             elif filename[-2:]=="md":
                 createacrolistfromdoc(filename,filename[-2:])
                 print("\n\n")
-                searchunknownacros(filename,filename[-4:])
+                searchunknownacros(filename,filename[-2:])
             elif filename[-4:]=="docx":
                 #print("creating acronymlist!")
                 createacrolistfromdoc(filename,filename[-4:])
