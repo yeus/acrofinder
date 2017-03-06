@@ -6,6 +6,8 @@ AFuV,Verordnung zum Gesetz über den Amateurfunk (Amateurfunkverordnung),
 AG,Aktiengesellschaft,
 AIESS,AI Elektromechanisches Separationssystem,
 AOCS,Attitude and Orbit Control Subsystem,
+DSS,Data interface,Datenschnittstelle
+SValP,Software Validation Plan,
 API,Application Programming Interface,
 AR,Acceptance review,Überprüfung des Systemverifikationsergebnisses auf Akzeptanzniveau
 AU,Astronomical Unit,
@@ -30,6 +32,7 @@ COTS,commercial off-the-shelf," kommerziell,  handelsüblich"
 CPU,Central Processing Unit,
 CRR,Commissioning result review,Überprüfung des Inbetriebnahmeergebnisses
 CSA,Canadian Space Agency,
+DOS,Distributed Operating System,
 DAS,Debris-Assessment-Software,
 DC,Direct Current or Direct Voltage,
 DCO,Device Coordinates and Orientation,
@@ -64,6 +67,9 @@ ESCC,European Space Components Coordination,
 ESD,Electrostatic discharge,elektrostatische Entladung
 ESS,electronic interfaces,Elektrische Schnittstelle
 eV,eingetragener Verein,
+TTR,Table of Testresults,
+TCT,Telecommand Table,
+TRT,Test Routine Table,
 FCU,Flow Control Unit,
 FDA,Fluid-dynamischer Aktor,
 FDD,Feature Driven Development,
