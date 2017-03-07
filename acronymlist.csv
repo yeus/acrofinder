@@ -65,7 +65,7 @@ EQM,Engineering qualification model,Ingenieur-Qualifikationsmodell
 ESA,European Space Agency, Europäische Raumfahrtagentur
 ESCC,European Space Components Coordination,
 ESD,Electrostatic discharge,elektrostatische Entladung
-ESS,electronic interfaces,Elektrische Schnittstelle
+ESS,Electrical Interface,Elektrische Schnittstelle
 eV,eingetragener Verein,
 TTR,Table of Testresults,
 TCT,Telecommand Table,
@@ -102,9 +102,9 @@ IAC,International Astronautical Congress, internationaler Raumfahrtkongress
 IADC,Inter-Agency Space Debris Coordination Committee,
 IAF,International Astronautical Federation, internationale Raumfahrtförderation
 IARU,International Amateur Radio Union,internationale Vereinigung von Amateurfunkverbänden
-iBLOCK,iBoss Building Block,
-iBoss,intelligent Building Blocks for On-Orbit Servicing,intelligentes Bausteinkonzept für das On-Orbit-Satelliten-Servicing
-iBOSS,intelligent Building Blocks for On-Orbit Servicing,intelligentes Bausteinkonzept für das On-Orbit-Satelliten-Servicing
+iBLOCK,iBOSS Building Block,
+iBOSS,intelligent Building Blocks for On-Orbit Servicing and Assembly,intelligentes Bausteinkonzept für das On-Orbit-Satelliten-Servicing
+iBOSS,intelligent Building Blocks for On-Orbit Servicing and Assembly,intelligentes Bausteinkonzept für das On-Orbit-Satelliten-Servicing
 ICRF,International Celestial Reference Frame,
 ICRS,International Celestial Reference System,
 ICU,Interface Control Unit,
@@ -205,8 +205,7 @@ tbc,to be continued,
 TBD,to be defined,
 tbd,to be defined,
 TC,Telecommand,Telekommando
-TCS,Thermal Control Subsystem,
-TCS,Thermalkontrollsystem,
+TCS,Thermal Control Subsystem,Thermalkontrollsystem
 TEME,True Equator Mean Equinox ECI,
 TET,Technologieerprobungsträger,Kleinsatellitenbaureihe des DLR  zur Verifikation neuer Raumfahrtkomponenten
 THU,Thruster Unit,
@@ -231,7 +230,7 @@ UHF,Ultra High Frequency,Ultrahochfrequenz
 Uni,Universität,
 UTIAS,University of Toronto Institute for Aerospace Studies,
 VLBI,Very Long Baseline Interferometry,
-VTi,Virtual Testbed iBoss,
+VTi,Virtual Testbed iBOSS,
 WBS,Work Breakdown Structure,
 WMM,World Magnetic Field Model,
 XPOD,"Experimental Push-out Deployer, eXoadaptable PyrOless Deployer",
