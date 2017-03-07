@@ -1,0 +1,1 @@
+python acrofinder.py %1.docx > %1_acronyms.txt
