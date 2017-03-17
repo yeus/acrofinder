@@ -1,16 +1,12 @@
 acronym,definition,deutsch
-AIV,Assembly Integration and Verification,
-WP,Work Package,
-CIL,Critical Item List,
 A/D,Analogue to Digital Converter,
 ACS,Attitude control system,Lageregelungssystem
 ADS,Attitude Determination Subsystem,
 AFuV,Verordnung zum Gesetz über den Amateurfunk (Amateurfunkverordnung),
 AG,Aktiengesellschaft,
 AIESS,AI Elektromechanisches Separationssystem,
+AIV,Assembly Integration and Verification,
 AOCS,Attitude and Orbit Control Subsystem,
-DSS,Data interface,Datenschnittstelle
-SValP,Software Validation Plan,
 API,Application Programming Interface,
 AR,Acceptance review,Überprüfung des Systemverifikationsergebnisses auf Akzeptanzniveau
 AU,Astronomical Unit,
@@ -24,6 +20,7 @@ CA,Cellular Automaton,
 CAD,Computer Aided Design,
 CAN,Controller Area Network,ein Feldbus
 CDR,Critical design review,Überprüfung des detaillierten Entwurfs
+CIL,Critical Item List,
 CNT,Carbon Nanotubes,
 COE,Center of Earth,
 COG,Center of Gravity,
@@ -35,7 +32,6 @@ COTS,commercial off-the-shelf," kommerziell,  handelsüblich"
 CPU,Central Processing Unit,
 CRR,Commissioning result review,Überprüfung des Inbetriebnahmeergebnisses
 CSA,Canadian Space Agency,
-DOS,Distributed Operating System,
 DAS,Debris-Assessment-Software,
 DC,Direct Current or Direct Voltage,
 DCO,Device Coordinates and Orientation,
@@ -51,6 +47,8 @@ DIN,Deutsches Institut für Normung eV,
 DLR,Deutsches Zentrum für Luft- und Raumfahrt eV,
 DLRK,Deutscher Luft- und Raumfahrtkongress,
 DM,Development model,Entwicklungsmodell
+DOS,Distributed Operating System,
+DSS,Data interface,Datenschnittstelle
 ECEF,Earth Centered Earth Fixed,
 ECI,Earth-Centered Inertial Coordinate System,
 ECoC,European Code of Conduct,
@@ -68,11 +66,10 @@ EQM,Engineering qualification model,Ingenieur-Qualifikationsmodell
 ESA,European Space Agency, Europäische Raumfahrtagentur
 ESCC,European Space Components Coordination,
 ESD,Electrostatic discharge,elektrostatische Entladung
+ESOQ,Estimator of Optimal Quaternion,
+ESOQ2,Estimator of Optimal Quaternion 2,
 ESS,Electrical Interface,Elektrische Schnittstelle
 eV,eingetragener Verein,
-TTR,Table of Testresults,
-TCT,Telecommand Table,
-TRT,Test Routine Table,
 FCU,Flow Control Unit,
 FDA,Fluid-dynamischer Aktor,
 FDD,Feature Driven Development,
@@ -85,6 +82,7 @@ FM,Flight Model,
 FM,Flight model,Flugmuster
 FMDR,Flüssigmetall-Drallring,
 FMU,Functional Mockup Unit,
+FOAM,Fast Optimal Attitude Matrix,
 FOR,Faseroptische Drehratensensorsystem,
 FRR,Flight readiness review,Überprüfung der Flugbereitschaft
 FS,Flight spare,Flugersatzmuster
@@ -117,7 +115,7 @@ IGRF,International Geomagnetic Reference Field Model,
 ILR,Institut für Luft- und Raumfahrt,
 IMU,Inertial Measurement Unit,
 Inc.,Incorporated,
-IOD, In Orbit Demonstration,
+IOD,In Orbit Demonstration,
 IP,Internet Protokoll,
 IPMS,Institute for Photonic Microsystems (Fraunhofer),
 iSAT,iBOSS Satellite,
@@ -145,6 +143,7 @@ MGSE,Mechanical Ground Support Equipment,
 MIDC,Module id coordinates,
 MIF,Mechanical Interface,
 MJD,Modified Julian Date,
+MLE,Maximum Likelihood Estimation,
 MLI,Multilayer Insulation,
 MMI,Institute for Man-Machine Interaction,Institut für Mensch Maschine Interaktion
 MoI,Moment of Inertia,
@@ -183,6 +182,7 @@ QM,Qualifikation model,Qualifikationsmodell
 QoS,Quality of Service,
 QR,Qualification review,Überprüfung des Systemverifikationsergebnisses auf Qualifikationsniveau
 QSL,Qualification Status List; de: Liste des Qualifizierungs- status,
+QUEST,Quaternion Estimator,
 ROS,Robot Operating System,
 ROSS,ROS for Space Applications,
 RTPS,Real-Time Publish-Subscribe,
@@ -202,6 +202,8 @@ SSS,Sonnensensorsystem,
 STM,Structural thermal model,Struktur-Thermal-Modell
 STP,Spanning Tree Protocol,
 STR,Star tracker,Sternsensor
+SValP,Software Validation Plan,
+SVD,Singular Value Decomposition,
 SW,Software,
 TBC,to be continued,
 tbc,to be continued,
@@ -209,6 +211,7 @@ TBD,to be defined,
 tbd,to be defined,
 TC,Telecommand,Telekommando
 TCS,Thermal Control Subsystem,Thermalkontrollsystem
+TCT,Telecommand Table,
 TEME,True Equator Mean Equinox ECI,
 TET,Technologieerprobungsträger,Kleinsatellitenbaureihe des DLR  zur Verifikation neuer Raumfahrtkomponenten
 THU,Thruster Unit,
@@ -219,10 +222,12 @@ TM,Telemetrie,
 TMS,Task Managing System,
 TNC,Terminal Node Controller,Teil eines digitalen Kommunikationssystems zur Kodierung und Modulation
 TRIAD,TODO,
+TRT,Test Routine Table,
 TRX,Transceiver,Sender und Empfänger
 TSPE,Test Specification,
 TTC,Telemetry Tracking and Command,
 TTEthernet,Time Triggered Ethernet,
+TTR,Table of Testresults,
 TU,Technische Universität,
 TUB,Technische Universität Berlin; Institut für Luft- und Raumfahrt,
 TUBIN,TU Berlin Infrarot-Nanosatellit,
@@ -230,10 +235,12 @@ TUBSAT,TU Berlin Infrarot-Nanosatellit,
 TV-L,Tarifvertrag für den öffentlichen Dienst der Länder,
 UART,Universal Asynchronous Receiver/Transmitter,
 UHF,Ultra High Frequency,Ultrahochfrequenz
+UKF,Unscented Kalman Filter,
 Uni,Universität,
 UTIAS,University of Toronto Institute for Aerospace Studies,
 VLBI,Very Long Baseline Interferometry,
 VTi,Virtual Testbed iBOSS,
 WBS,Work Breakdown Structure,
 WMM,World Magnetic Field Model,
+WP,Work Package,
 XPOD,"Experimental Push-out Deployer, eXoadaptable PyrOless Deployer",
