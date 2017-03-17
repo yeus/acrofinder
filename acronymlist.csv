@@ -65,9 +65,9 @@ EQM,Engineering qualification model,Ingenieur-Qualifikationsmodell
 ESA,European Space Agency, Europäische Raumfahrtagentur
 ESCC,European Space Components Coordination,
 ESD,Electrostatic discharge,elektrostatische Entladung
-ESOQ, Estimator of Optimal Quaternion
-ESOQ2, Estimator of Optimal Quaternion 2
-QUEST, Quaternion Estimator
+ESOQ, Estimator of Optimal Quaternion,
+ESOQ2, Estimator of Optimal Quaternion 2,
+QUEST, Quaternion Estimator,
 ESS,electronic interfaces,Elektrische Schnittstelle
 eV,eingetragener Verein,
 TTR,Table of Testresults,
@@ -233,6 +233,7 @@ TUBSAT,TU Berlin Infrarot-Nanosatellit,
 TV-L,Tarifvertrag für den öffentlichen Dienst der Länder,
 UART,Universal Asynchronous Receiver/Transmitter,
 UHF,Ultra High Frequency,Ultrahochfrequenz
+UKF,Unscented Kalman Filter,
 Uni,Universität,
 UTIAS,University of Toronto Institute for Aerospace Studies,
 VLBI,Very Long Baseline Interferometry,
