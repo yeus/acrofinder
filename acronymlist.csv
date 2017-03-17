@@ -65,6 +65,9 @@ EQM,Engineering qualification model,Ingenieur-Qualifikationsmodell
 ESA,European Space Agency, Europäische Raumfahrtagentur
 ESCC,European Space Components Coordination,
 ESD,Electrostatic discharge,elektrostatische Entladung
+ESOQ, Estimator of Optimal Quaternion
+ESOQ2, Estimator of Optimal Quaternion 2
+QUEST, Quaternion Estimator
 ESS,electronic interfaces,Elektrische Schnittstelle
 eV,eingetragener Verein,
 TTR,Table of Testresults,
@@ -84,6 +87,7 @@ FMDR,Flüssigmetall-Drallring,
 FMU,Functional Mockup Unit,
 FOR,Faseroptische Drehratensensorsystem,
 FRR,Flight readiness review,Überprüfung der Flugbereitschaft
+FOAM,Fast Optimal Attitude Matrix
 FS,Flight spare,Flugersatzmuster
 FTI,Fluid Transfer Interface,
 FZI,Forschungszentrum Informatik Karlsruhe; Group Intelligent Systems and Production Engineering,
@@ -142,6 +146,7 @@ MIDC,Module id coordinates,
 MIF,Mechanical Interface,
 MJD,Modified Julian Date,
 MLI,Multilayer Insulation,
+MLE,Maximum Likelihood Estimation
 MMI,Institute for Man-Machine Interaction,Institut für Mensch Maschine Interaktion
 MoI,Moment of Inertia,
 MOSFET,Metal-Oxide-Semiconductor Field-Effect Transistor,
@@ -198,6 +203,7 @@ SSS,Sonnensensorsystem,
 STM,Structural thermal model,Struktur-Thermal-Modell
 STP,Spanning Tree Protocol,
 STR,Star tracker,Sternsensor
+SVD, Singular Value Decomposition
 SW,Software,
 TBC,to be continued,
 tbc,to be continued,
