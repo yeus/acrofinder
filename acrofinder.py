@@ -86,7 +86,7 @@ def get_txt_data(filename):
                 data = check_output(["pdf2txt",filename])
                 #print(data)
             except Exception as e:
-                print("have you installed docx2txt? try: \n\n    >> sudo apt install -y docx2txt")
+                print("have you installed pdf2txt? try: \n\n    >> sudo apt install -y python-pdfminer")
                 raise
             
     if filetype=='docx' and os.name == 'posix': 
