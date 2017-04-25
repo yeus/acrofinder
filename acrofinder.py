@@ -147,11 +147,11 @@ def replaceintexfiles(filename):
         
     ##TODO:  if line starts with "\section"  dont replace!!    
 
-    acros = load_acrolist()
+    acrodict, acroset = load_acros()
 
     newtex = textstr
     counter=defaultdict(int)
-    for acro, acrolong in acros:
+    for acro, acrolong in acrodict.items():
         repl = r'\\ac{{{}}}'.format(acro)
         nosec = r'(?![^{]*})' #make sure, regex does no appear between curly braces
         #TODO: do only not replace in section headings between curly braces
@@ -163,7 +163,7 @@ def replaceintexfiles(filename):
     print(newtex)
 
     with open("acronyms.tex","w") as acrotex:
-        acrotex.write(buildlatexlist(acros))
+        acrotex.write(buildlatexlist(acrodict.items()))
 
     with open("acro.log","a") as acrolog:
         acrolog.write("found: {}\n".format(dict(counter)))
