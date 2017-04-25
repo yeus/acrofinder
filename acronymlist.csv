@@ -1,7 +1,8 @@
 acronym,definition,deutsch
 A/D,Analogue to Digital Converter,
-ACS,Attitude control system,Lageregelungssystem
+ACS,Attitude Control Subsystem,Lageregelungssystem
 ADS,Attitude Determination Subsystem,
+ADCS,Attitude Determination and Control Subsystem,
 AFuV,Verordnung zum Gesetz über den Amateurfunk (Amateurfunkverordnung),
 AG,Aktiengesellschaft,
 AIESS,AI Elektromechanisches Separationssystem,
@@ -14,7 +15,7 @@ Batt,Batterie,
 BCDR,Battery Charge and Discharge Regulator,
 BCRS,Barycentric Celestical Reference System,
 BEESAT,Berlin Experimental and Educational Satellite,Berliner Experimental- und Ausbildungssatellit
-BIRD,Bispectral Infra-Red Detection,Kleinsatellitenmission des DLR  zur Beobachtung von Wald,
+BIRD,Bispectral Infra-Red Detection,Kleinsatellitenmission des DLR  zur Beobachtung von Wald
 BNetzA,Bundesnetzagentur,
 CA,Cellular Automaton,
 CAD,Computer Aided Design,
@@ -92,7 +93,7 @@ FOR,Faseroptische Drehratensensorsystem,
 FRR,Flight readiness review,Überprüfung der Flugbereitschaft
 FS,Flight spare,Flugersatzmuster
 FTI,Fluid Transfer Interface,
-FZI,"Forschungszentrum Informatik Karlsruhe; Group Intelligent Systems and Production Engineering",
+FZI,Forschungszentrum Informatik Karlsruhe; Group Intelligent Systems and Production Engineering,
 GCRF,Geocentric Celestial Reference Frame,
 GCRS,Geocentric Celestial Reference System,
 GEO,Geostationary Earth Orbit,
@@ -191,7 +192,7 @@ QA,Quality Assurance, Qualitätssicherung
 QM,Qualifikation model,Qualifikationsmodell
 QoS,Quality of Service,
 QR,Qualification review,Überprüfung des Systemverifikationsergebnisses auf Qualifikationsniveau
-QSL,Qualification Status List, Liste des Qualifizierungs- status,
+QSL,Qualification Status List, Liste des Qualifizierungs- status
 QUEST,Quaternion Estimator,
 RFA,Request For Approval,
 ROS,Robot Operating System,
@@ -206,7 +207,7 @@ SEM,Scanning electron microscope,
 SEMENA,Titel des DLR -Fördervorhabens für den Nanosatelliten-Separationsmechanismus AIES,
 SFL,Space Flight Laboratory,
 SIL,Software in the loop,
-SLA,"RWTH Aachen; Institut für Strukturmechanik und Leichtbau",
+SLA,RWTH Aachen; Institut für Strukturmechanik und Leichtbau,
 SM,Structural model,Strukturmodell
 SRR,System requirements review, Überprüfung der Systemanforderungen
 SSS,Sonnensensorsystem,
@@ -241,7 +242,7 @@ TTC,Telemetry Tracking and Command,
 TTEthernet,Time Triggered Ethernet,
 TTR,Table of Testresults,
 TU,Technische Universität,
-TUB,"Technische Universität; Berlin Institut für Luft- und Raumfahrt",
+TUB,Technische Universität; Berlin Institut für Luft- und Raumfahrt,
 TUBIN,TU Berlin Infrarot-Nanosatellit,
 TUBSAT,TU Berlin Infrarot-Nanosatellit,
 TV-L,Tarifvertrag für den öffentlichen Dienst der Länder,
