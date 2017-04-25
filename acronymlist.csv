@@ -14,7 +14,7 @@ Batt,Batterie,
 BCDR,Battery Charge and Discharge Regulator,
 BCRS,Barycentric Celestical Reference System,
 BEESAT,Berlin Experimental and Educational Satellite,Berliner Experimental- und Ausbildungssatellit
-BIRD,Bispectral Infra-Red Detection, Kleinsatellitenmission des DLR  zur Beobachtung von Wald 
+BIRD,Bispectral Infra-Red Detection,Kleinsatellitenmission des DLR  zur Beobachtung von Wald,
 BNetzA,Bundesnetzagentur,
 CA,Cellular Automaton,
 CAD,Computer Aided Design,
@@ -29,7 +29,7 @@ COM,Center of Mass,
 COMM,Kommunikationssystem,
 Corp.,Corporation,
 COS,Center of Satellite,
-COTS,commercial off-the-shelf," kommerziell,  handelsüblich"
+COTS,commercial off-the-shelf,"Kommerziell, handelsüblich"
 CPU,Central Processing Unit,
 CRR,Commissioning result review,Überprüfung des Inbetriebnahmeergebnisses
 CSA,Canadian Space Agency,
@@ -49,24 +49,26 @@ DIN,Deutsches Institut für Normung eV,
 DLR,Deutsches Zentrum für Luft- und Raumfahrt eV,
 DLRK,Deutscher Luft- und Raumfahrtkongress,
 DM,Development model,Entwicklungsmodell
+DML,Declared Material List,
 DOS,Distributed Operating System,
+DPL,Declared Process List,
 DSS,Data interface,Datenschnittstelle
 ECEF,Earth Centered Earth Fixed,
 ECI,Earth-Centered Inertial Coordinate System,
 ECoC,European Code of Conduct,
 ECSS,European Cooperation for Space Standardization,
 EDA,Electronic Design Automation,Rechnerunterstützter Entwurf von elektronischen Systemen
-EGSE,Electrical ground support equipment, elektrische Bodenhilfseinrichtungen
+EGSE,Electrical ground support equipment,elektrische Bodenhilfseinrichtungen
 EIF,Electrical Interface,
 EKF,Extended Kalman Filter,
 EM,Engineering model,Ingenieurmodell
 EMC,Electromagnetic Compatibility,
 EMM,Enhanced Magnetic Model,
-EOL,End of Life,"Missionsende,  Außerbetriebnahme"
+EOL,End of Life,"Missionsende,   Außerbetriebnahme"
 EPS,Electrical Power Subsystem,
 EQM,Engineering qualification model,Ingenieur-Qualifikationsmodell
 EQUEST,Extended Quaternion Estimator,
-ESA,European Space Agency, Europäische Raumfahrtagentur
+ESA,European Space Agency,Europäische Raumfahrtagentur
 ESCC,European Space Components Coordination,
 ESD,Electrostatic discharge,elektrostatische Entladung
 ESOQ,Estimator of Optimal Quaternion,
@@ -90,7 +92,7 @@ FOR,Faseroptische Drehratensensorsystem,
 FRR,Flight readiness review,Überprüfung der Flugbereitschaft
 FS,Flight spare,Flugersatzmuster
 FTI,Fluid Transfer Interface,
-FZI,Forschungszentrum Informatik Karlsruhe; Group Intelligent Systems and Production Engineering,
+FZI,"Forschungszentrum Informatik Karlsruhe; Group Intelligent Systems and Production Engineering",
 GCRF,Geocentric Celestial Reference Frame,
 GCRS,Geocentric Celestial Reference System,
 GEO,Geostationary Earth Orbit,
@@ -100,11 +102,11 @@ GSE,Ground Support Equipment,
 GYR,Gyrosystem,
 HIL,Hardware in the loop,
 HISPICO,Hochintegrierter S-Band-Sender für Picosatelliten,
-HRDMS,Highly Reliable Data Management System, hochverfügbares Datenmanagementsystem
+HRDMS,Highly Reliable Data Management System,hochverfügbares Datenmanagementsystem
 HZB,Helmholtz-Zentrum Berlin für Materialien und Energie GmbH,
-IAC,International Astronautical Congress, internationaler Raumfahrtkongress
+IAC,International Astronautical Congress,internationaler Raumfahrtkongress
 IADC,Inter-Agency Space Debris Coordination Committee,
-IAF,International Astronautical Federation, internationale Raumfahrtförderation
+IAF,International Astronautical Federation,internationale Raumfahrtförderation
 IAGA,International Association of Geomagnetism and Aeronomy,
 IARU,International Amateur Radio Union,internationale Vereinigung von Amateurfunkverbänden
 iBLOCK,iBOSS Building Block,
@@ -115,6 +117,7 @@ ICRS,International Celestial Reference System,
 ICU,Interface Control Unit,
 IDL,Interface Definition Language,
 IERS,Internationl Earth Rotation and Reference Systems Service,
+IFAM,Fraunhofer-Institut für Fertigungstechnik und Angewandte Materialforschung,
 IGRF,International Geomagnetic Reference Field Model,
 ILR,Institut für Luft- und Raumfahrt,
 IMU,Inertial Measurement Unit,
@@ -135,7 +138,7 @@ JDN,Julian Day Number,
 KF,Kalman Filter,
 KG,Kommanditgesellschaft,
 LBA,Luftfahrt-Bundesamt,
-LEO,Low Earth Orbit, niederer Erdorbit
+LEO,Low Earth Orbit,niederer Erdorbit
 LEOP,Launch and early orbit phase,Start- und frühe Orbitphase
 LRR,Launch readiness review,Überprüfung der Startbereitschaft
 Ltd,Limited,
@@ -184,12 +187,13 @@ PSCU,Propulsion System Control Unit,
 PSLV,Polar Satellite Launch Vehicle,Indisches Trägersystem
 PTFE,Polytetrafluorethylen,
 PUS,Packet Utilisation Standard,
-QA,Quality Assurance; de: Qualitätssicherung,
+QA,Quality Assurance, Qualitätssicherung
 QM,Qualifikation model,Qualifikationsmodell
 QoS,Quality of Service,
 QR,Qualification review,Überprüfung des Systemverifikationsergebnisses auf Qualifikationsniveau
-QSL,Qualification Status List; de: Liste des Qualifizierungs- status,
+QSL,Qualification Status List, Liste des Qualifizierungs- status,
 QUEST,Quaternion Estimator,
+RFA,Request For Approval,
 ROS,Robot Operating System,
 ROSS,ROS for Space Applications,
 RTPS,Real-Time Publish-Subscribe,
@@ -202,7 +206,7 @@ SEM,Scanning electron microscope,
 SEMENA,Titel des DLR -Fördervorhabens für den Nanosatelliten-Separationsmechanismus AIES,
 SFL,Space Flight Laboratory,
 SIL,Software in the loop,
-SLA,RWTH Aachen; Institut für Strukturmechanik und Leichtbau,
+SLA,"RWTH Aachen; Institut für Strukturmechanik und Leichtbau",
 SM,Structural model,Strukturmodell
 SRR,System requirements review, Überprüfung der Systemanforderungen
 SSS,Sonnensensorsystem,
@@ -212,8 +216,9 @@ STR,Star tracker,Sternsensor
 SValP,Software Validation Plan,
 SVD,Singular Value Decomposition,
 SW,Software,
-TBC,to be continued,
-tbc,to be continued,
+TBA,To Be Announced,
+TBC,to be confirmed,
+tbc,to be confirmed,
 TBD,to be defined,
 tbd,to be defined,
 TC,Telecommand,Telekommando
@@ -236,7 +241,7 @@ TTC,Telemetry Tracking and Command,
 TTEthernet,Time Triggered Ethernet,
 TTR,Table of Testresults,
 TU,Technische Universität,
-TUB,Technische Universität Berlin; Institut für Luft- und Raumfahrt,
+TUB,"Technische Universität; Berlin Institut für Luft- und Raumfahrt",
 TUBIN,TU Berlin Infrarot-Nanosatellit,
 TUBSAT,TU Berlin Infrarot-Nanosatellit,
 TV-L,Tarifvertrag für den öffentlichen Dienst der Länder,
