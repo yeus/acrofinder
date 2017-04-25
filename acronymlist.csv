@@ -1,5 +1,6 @@
 acronym,definition,deutsch
 CMG,Control Momentum Gyros,
+EQUEST,Extended Quaternion Estimator,
 NGA,National Geospatial-Intelligence Agency,
 DGC,United Kingdom's Defence Geographic Centre,
 IAGA,International Association of Geomagnetism and Aeronomy,
@@ -132,6 +133,7 @@ ITRS,International Terrestrial Reference System,
 ITU-R,International Telecommunication Union (Radiocommunication), Internationale Fernmeldeunion
 JD,Julian Date,
 JDN,Julian Day Number,
+KF,Kalman Filter,
 KG,Kommanditgesellschaft,
 LBA,Luftfahrt-Bundesamt,
 LEO,Low Earth Orbit, niederer Erdorbit
@@ -142,6 +144,7 @@ MAIT,"Manufacturing, Assembly, Integration, Test","Fertigung, Montage, Einbau,Te
 MBF,Module Body Frame,
 MCU,Motor Control Unit,
 MDR,Mission Requiements Document,
+MEKF,Multiplicative Extended Kalman Filter,
 MFS,Magnetfeldsensor,
 MGSE,Mechanical Ground Support Equipment,
 MIDC,Module id coordinates,
