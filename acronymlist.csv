@@ -1,9 +1,4 @@
 acronym,definition,deutsch
-CMG,Control Momentum Gyros,
-EQUEST,Extended Quaternion Estimator,
-NGA,National Geospatial-Intelligence Agency,
-DGC,United Kingdom's Defence Geographic Centre,
-IAGA,International Association of Geomagnetism and Aeronomy,
 A/D,Analogue to Digital Converter,
 ACS,Attitude control system,Lageregelungssystem
 ADS,Attitude Determination Subsystem,
@@ -26,6 +21,7 @@ CAD,Computer Aided Design,
 CAN,Controller Area Network,ein Feldbus
 CDR,Critical design review,Überprüfung des detaillierten Entwurfs
 CIL,Critical Item List,
+CMG,Control Momentum Gyros,
 CNT,Carbon Nanotubes,
 COE,Center of Earth,
 COG,Center of Gravity,
@@ -42,6 +38,7 @@ DC,Direct Current or Direct Voltage,
 DCO,Device Coordinates and Orientation,
 DDS,Distributed Data Service,
 DFG,Deutsche Forschungsgemeinschaft eV,
+DGC,United Kingdom's Defence Geographic Centre,
 DGLR,Deutsche Gesellschaft für Luft- und Raumfahrt eV,
 DH,Data handling -- Datenverarbeitung,
 DHCP,Dynamic Host Configuration Protocol,
@@ -68,6 +65,7 @@ EMM,Enhanced Magnetic Model,
 EOL,End of Life,"Missionsende,  Außerbetriebnahme"
 EPS,Electrical Power Subsystem,
 EQM,Engineering qualification model,Ingenieur-Qualifikationsmodell
+EQUEST,Extended Quaternion Estimator,
 ESA,European Space Agency, Europäische Raumfahrtagentur
 ESCC,European Space Components Coordination,
 ESD,Electrostatic discharge,elektrostatische Entladung
@@ -107,6 +105,7 @@ HZB,Helmholtz-Zentrum Berlin für Materialien und Energie GmbH,
 IAC,International Astronautical Congress, internationaler Raumfahrtkongress
 IADC,Inter-Agency Space Debris Coordination Committee,
 IAF,International Astronautical Federation, internationale Raumfahrtförderation
+IAGA,International Association of Geomagnetism and Aeronomy,
 IARU,International Amateur Radio Union,internationale Vereinigung von Amateurfunkverbänden
 iBLOCK,iBOSS Building Block,
 iBOSS,intelligent Building Blocks for On-Orbit Servicing and Assembly,intelligentes Bausteinkonzept für das On-Orbit-Satelliten-Servicing
@@ -161,6 +160,7 @@ n.a.,not applicable,
 NASA,National Aeronautics and Space Agency,
 NASA,National Aeronautics and Space Administration,
 ND,Normative Document,
+NGA,National Geospatial-Intelligence Agency,
 NN,Nomen nominandum,Name unbekannt
 NTP,Network Time Protocol,
 OBC,On Board Computer,Bordcomputer
