@@ -1,17 +1,22 @@
 acronym,definition,deutsch,tags
 A/D,Analogue to Digital Converter,,space
 ACS,Attitude Control Subsystem,Lageregelungssystem,space
-ADS,Attitude Determination Subsystem,,space
+ADC ,Analog Digital Converter,,
 ADCS,Attitude Determination and Control Subsystem,,space
+ADS,Attitude Determination Subsystem,,space
 AFuV,Verordnung zum Gesetz über den Amateurfunk (Amateurfunkverordnung),,space
 AG,Aktiengesellschaft,,space
 AIESS,AI Elektromechanisches Separationssystem,,space
 AIV,Assembly Integration and Verification,,space
+ANN ,Artificial Neural Network,,
 AOCS,Attitude and Orbit Control Subsystem,,space
 API,Application Programming Interface,,space
 AR,Acceptance review,Überprüfung des Systemverifikationsergebnisses auf Akzeptanzniveau,space
+ASP ,TODO,,
+ASTM ,TODO,,
 AU,Astronomical Unit,,space
 Batt,Batterie,,space
+BB ,TODO,,
 BCDR,Battery Charge and Discharge Regulator,,space
 BCRS,Barycentric Celestical Reference System,,space
 BEESAT,Berlin Experimental and Educational Satellite,Berliner Experimental- und Ausbildungssatellit,space
@@ -20,10 +25,13 @@ BNetzA,Bundesnetzagentur,,space
 CA,Cellular Automaton,,space
 CAD,Computer Aided Design,,space
 CAN,Controller Area Network,ein Feldbus,space
+CCSDS ,TODO,,
 CDR,Critical design review,Überprüfung des detaillierten Entwurfs,space
+CFRP ,TODO,,
 CIL,Critical Item List,,space
 CMG,Control Momentum Gyros,,space
 CNT,Carbon Nanotubes,,space
+CNT,TODO,,
 COE,Center of Earth,,space
 COG,Center of Gravity,,space
 COM,Center of Mass,,space
@@ -34,8 +42,11 @@ COTS,commercial off-the-shelf,"Kommerziell, handelsüblich",space
 CPU,Central Processing Unit,,space
 CRR,Commissioning result review,Überprüfung des Inbetriebnahmeergebnisses,space
 CSA,Canadian Space Agency,,space
+CubeSat ,CubeSat Standard,,
 DAS,Debris-Assessment-Software,,space
+DB ,TODO,,
 DC,Direct Current or Direct Voltage,,space
+DCL ,TODO,,
 DCO,Device Coordinates and Orientation,,space
 DDS,Distributed Data Service,,space
 DFG,Deutsche Forschungsgemeinschaft eV,,space
@@ -51,6 +62,7 @@ DLR,Deutsches Zentrum für Luft- und Raumfahrt eV,,space
 DLRK,Deutscher Luft- und Raumfahrtkongress,,space
 DM,Development model,Entwicklungsmodell,space
 DML,Declared Material List,,space
+DMPL ,TODO,,
 DOS,Distributed Operating System,,space
 DPL,Declared Process List,,space
 DSS,Data interface,Datenschnittstelle,space
@@ -68,6 +80,7 @@ EMM,Enhanced Magnetic Model,,space
 EOL,End of Life,"Missionsende,   Außerbetriebnahme",space
 EPS,Electrical Power Subsystem,,space
 EQM,Engineering qualification model,Ingenieur-Qualifikationsmodell,space
+EQMs ,TODO,,
 EQUEST,Extended Quaternion Estimator,,space
 ESA,European Space Agency,Europäische Raumfahrtagentur,space
 ESCC,European Space Components Coordination,,space
@@ -76,13 +89,16 @@ ESOQ,Estimator of Optimal Quaternion,,space
 ESOQ2,Estimator of Optimal Quaternion 2,,space
 ESS,Electrical Interface,Elektrische Schnittstelle,space
 eV,eingetragener Verein,,space
+FastRTPS ,TODO,,
 FCU,Flow Control Unit,,space
 FDA,Fluid-dynamischer Aktor,,space
 FDD,Feature Driven Development,,space
 FDU,Fill and Drain Unit,,space
+FE ,TODO,,
 FEM,Finite-Elemente-Methode,,space
 FG,Fachgebiet,,space
 FGSE,Fluid Ground Support Equipment,,space
+FIN ,TODO,,
 FKZ,Förderkennzeichen,,space
 FM,Flight Model,,space
 FM,Flight model,Flugmuster,space
@@ -97,25 +113,34 @@ FZI,Forschungszentrum Informatik Karlsruhe; Group Intelligent Systems and Produc
 GCRF,Geocentric Celestial Reference Frame,,space
 GCRS,Geocentric Celestial Reference System,,space
 GEO,Geostationary Earth Orbit,,space
+GESOC ,TODO,,
 GmbH,Gesellschaft mit begrenzter Haftung,,space
 GPIO,General Purpose Input/Output,,space
 GSE,Ground Support Equipment,,space
 GYR,Gyrosystem,,space
 HIL,Hardware in the loop,,space
 HISPICO,Hochintegrierter S-Band-Sender für Picosatelliten,,space
+HK ,TODO,,
 HRDMS,Highly Reliable Data Management System,hochverfügbares Datenmanagementsystem,space
 HZB,Helmholtz-Zentrum Berlin für Materialien und Energie GmbH,,space
+I2C ,TODO,,
+I²C ,TODO,,
 IAC,International Astronautical Congress,internationaler Raumfahrtkongress,space
 IADC,Inter-Agency Space Debris Coordination Committee,,space
 IAF,International Astronautical Federation,internationale Raumfahrtförderation,space
 IAGA,International Association of Geomagnetism and Aeronomy,,space
 IARU,International Amateur Radio Union,internationale Vereinigung von Amateurfunkverbänden,space
 iBLOCK,iBOSS Building Block,,space
+iBLOCK,TODO,,
 iBOSS,intelligent Building Blocks for On-Orbit Servicing and Assembly,intelligentes Bausteinkonzept für das On-Orbit-Satelliten-Servicing,space
 iBOSS,intelligent Building Blocks for On-Orbit Servicing and Assembly,intelligentes Bausteinkonzept für das On-Orbit-Satelliten-Servicing,space
+iBOSS2 ,TODO,,
+iBOSS22016 ,TODO,,
 ICRF,International Celestial Reference Frame,,space
 ICRS,International Celestial Reference System,,space
 ICU,Interface Control Unit,,space
+ID ,TODO,,
+IDEs ,TODO,,
 IDL,Interface Definition Language,,space
 IERS,Internationl Earth Rotation and Reference Systems Service,,space
 IFAM,Fraunhofer-Institut für Fertigungstechnik und Angewandte Materialforschung,,space
@@ -126,10 +151,12 @@ Inc.,Incorporated,,space
 IOD,In Orbit Demonstration,,space
 IP,Internet Protokoll,,space
 IPMS,Institute for Photonic Microsystems (Fraunhofer),,space
+IR ,TODO,,
 iSAT,iBOSS Satellite,,space
 ISRO,Indian Space Research Organisation,,space
 iSSI,Intelligent Space System Interface,,space
 ISSI,Intelligent Space System Interface,,space
+iSSI,TODO,,
 ITAR,International Traffic in Arms Regulations, Regelung des internationalen Waffenhandels,space
 ITRF,International Terrestrial Reference Frame,,space
 ITRS,International Terrestrial Reference System,,space
@@ -139,12 +166,14 @@ JDN,Julian Day Number,,space
 KF,Kalman Filter,,space
 KG,Kommanditgesellschaft,,space
 LBA,Luftfahrt-Bundesamt,,space
+LED ,TODO,,
 LEO,Low Earth Orbit,niederer Erdorbit,space
 LEOP,Launch and early orbit phase,Start- und frühe Orbitphase,space
 LRR,Launch readiness review,Überprüfung der Startbereitschaft,space
 Ltd,Limited,,space
 MAIT,"Manufacturing, Assembly, Integration, Test","Fertigung, Montage, Einbau,Test",space
 MBF,Module Body Frame,,space
+MCC ,TODO,,
 MCU,Motor Control Unit,,space
 MDR,Mission Requiements Document,,space
 MEKF,Multiplicative Extended Kalman Filter,,space
@@ -157,6 +186,7 @@ MLE,Maximum Likelihood Estimation,,space
 MLI,Multilayer Insulation,,space
 MMI,Institute for Man-Machine Interaction,Institut für Mensch Maschine Interaktion,space
 MoI,Moment of Inertia,,space
+MOS ,TODO,,
 MOSFET,Metal-Oxide-Semiconductor Field-Effect Transistor,,space
 MTS,Magnetorquersystem,,space
 MwSt.,Mehrwertsteuer,,space
@@ -169,19 +199,23 @@ NN,Nomen nominandum,Name unbekannt,space
 NTP,Network Time Protocol,,space
 OBC,On Board Computer,Bordcomputer,space
 OBDH,On Board Data Handling,,space
+OBS ,TODO,,
 OCI,Optical CAN Interface,,space
 OCS,Orbit Control System,,space
+OF ,TODO,,
 OMG,Object Management Group,,space
 ORR,Operational readiness review,Überprüfung der Betriebsbereitschaft,space
 PA,Product Assurance,Produktsicherung,space
 ParG,Partnerschaftsgesellschaft,,space
 PC,Personalcomputer,,space
 PCB,Printed Circuit Board,,space
+PCB,TODO,,
 PCDU,Power Control and Distribution Unit,Energieversorgungssteuerung- und -verteilungseinheit,space
 PCU,Power Control Unit,Energieversorgungssteuereinheit,space
 PDH,Payload Data Handling,Nutzlastdatenverarbeitung,space
 PDR,Preliminary design review,Überprüfung des vorläufigen Entwurfs,space
 PDU,Power Distribution Unit,,space
+PDU,TODO,,
 PFM,Protoflight model,Protoflugmuster,space
 PMP,Projektmanagementplan,,space
 PSCU,Propulsion System Control Unit,,space
@@ -196,9 +230,12 @@ QSL,Qualification Status List, Liste des Qualifizierungs- status,space
 QUEST,Quaternion Estimator,,space
 RFA,Request For Approval,,space
 ROS,Robot Operating System,,space
+ROS1 ,TODO,,
+ROS2 ,TODO,,
 ROSS,ROS for Space Applications,,space
 RTPS,Real-Time Publish-Subscribe,,space
 RTSP,Rapid Tree Spanning Protocol,,space
+RX ,TODO,,
 SBF,Spacecraft Body Frame,,space
 SCRUM,Agile Development Method,,space
 SDM,Space debris mitigation,Weltraummüllvermeidung,space
@@ -229,7 +266,9 @@ TEME,True Equator Mean Equinox ECI,,space
 TET,Technologieerprobungsträger,Kleinsatellitenbaureihe des DLR  zur Verifikation neuer Raumfahrtkomponenten,space
 THU,Thruster Unit,,space
 TIF,Thermal Interface,,space
+TIF,TODO,,
 TIM,Thermal Interface Material,,space
+TIMs ,TODO,,
 TIR,Thermales Infrarot,,space
 TM,Telemetrie,,space
 TMS,Task Managing System,,space
@@ -238,6 +277,7 @@ TRIAD,TODO,,space
 TRT,Test Routine Table,,space
 TRX,Transceiver,Sender und Empfänger,space
 TSPE,Test Specification,,space
+TT ,TODO,,
 TTC,Telemetry Tracking and Command,,space
 TTEthernet,Time Triggered Ethernet,,space
 TTR,Table of Testresults,,space
@@ -246,6 +286,7 @@ TUB,Technische Universität; Berlin Institut für Luft- und Raumfahrt,,space
 TUBIN,TU Berlin Infrarot-Nanosatellit,,space
 TUBSAT,TU Berlin Infrarot-Nanosatellit,,space
 TV-L,Tarifvertrag für den öffentlichen Dienst der Länder,,space
+TX ,TODO,,
 UART,Universal Asynchronous Receiver/Transmitter,,space
 UHF,Ultra High Frequency,Ultrahochfrequenz,space
 UKF,Unscented Kalman Filter,,space
